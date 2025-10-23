@@ -6,45 +6,22 @@ export default function Project() {
   const sections = [
     {
       title: 'Die Herausforderung',
-      content: 'Mit dem Ausbau von Photovoltaik- und Windenergieanlagen  sowie dem Ausstieg aus Kernkraft, Braun- und Steinkohle bei der Stromerzeugung steht Deutschland vor der Herausforderung, die Versorgungssicherheit für elektrische Energie weiterhin zu gewährleisten. Die volatilen erneuerbaren Energien ersetzen fossile Brennstoffe, während gleichzeitig durch Elektromobilität und Wärmepumpen neue flexible Stromverbraucher entstehen. Bisherige Bewertungsmethoden betrachten entweder nur technische oder nur wirtschaftliche Aspekte der Versorgungssicherheit ohne Differenzierung inländischer Regionen, was der Komplexität des transformierten Energiesystems nicht gerecht wird.',
-      image: '/sunset-3442835.jpg',
+      content: 'Die Bewertung der Versorgungssicherheit mit Elektrizität wird durch die Energiewende zunehmend komplexer. Hochkomplexe Simulationsmodelle, die alle relevanten Systemkomponenten wie erneuerbare Energien, Speicher und Sektorkopplung berücksichtigen, benötigen für eine einzige Szenarioberechnung bis zu 8 Stunden. Diese extremen Rechenzeiten begrenzen die Anzahl untersuchbarer Szenarien drastisch und verhindern umfassende Analysen verschiedener Zukunftspfade. Gleichzeitig steigen die Anforderungen der europäischen Regulierungsbehörden an die Versorgungssicherheitsbewertung stetig – ein Dilemma zwischen Modellkomplexität und verfügbaren Rechenressourcen.',
+      image: '/energy-4030427.jpg',
       imagePosition: 'right'
     },
     {
       title: 'Der Lösungsansatz',
-      content: 'VAELUES führt erstmals technische und sozioökonomische Bewertungen der Versorgungssicherheit systematisch zusammen. Wir erweitern technische Simulationsmodelle um die Berücksichtigung regionaler Netzengpässe und Sektorkopplungstechnologien. Parallel entwickeln wir Methoden zur Bestimmung des Value of Lost Load (VoLL), die berücksichtigen, dass verschiedene Verbrauchergruppen und Regionen Stromausfälle unterschiedlich bewerten. Durch die Kopplung beider Ansätze können wir bestimmen, wo Investitionen in zusätzliche Kapazitäten wirklich sinnvoll sind und wo alternative Lösungen wie Nachfrageflexibilität aus gesamtwirtschaftlicher Sicht vorzuziehen wären.',
-      image: '/electrical-863402.jpg',
-      imagePosition: 'left'
-    },
-    {
-      title: 'Projektziele',
-      content: 'Das Projekt entwickelt erweiterte Modelle zur ganzheitlichen Bewertung der Versorgungssicherheit und wendet diese auf das deutsche Energiesystem der Jahre 2035 und 2045 an. Die Ergebnisse münden in konkrete regionale Handlungsempfehlungen für Kapazitätserweiterungen bei Erzeugung, Speicherung und Nachfrageflexibilität. Ein interaktives Visualisierungstool macht die komplexen Zusammenhänge für Stakeholder aus Politik, Wirtschaft und Wissenschaft zugänglich.',
-      image: '/solar-8244680.jpg',
-      imagePosition: 'right'
-    },
-    {
-      title: 'Bedeutung für die Energiewende',
-      content: 'Die Projektergebnisse unterstützen politische Entscheidungsträger und Unternehmen dabei, fundierte Entscheidungen über Investitionen in die Versorgungssicherheit zu treffen. Durch die transparente Darstellung von Kosten und Nutzen verschiedener Versorgungssicherheitsniveaus trägt VAELUES zur gesellschaftlichen Akzeptanz der Energiewende bei und hilft, knappe Ressourcen optimal einzusetzen.',
-      image: '/windmills-1048981.jpg',
+      content: 'KIVi Antelopes entwickelt KI-basierte Metamodelle, die komplexe Versorgungssicherheitsmodelle um mehrere Zehnerpotenzen beschleunigen können. Diese intelligenten Algorithmen lernen das Verhalten der ursprünglichen Simulationsmodelle und können deren Ergebnisse in Millisekunden mit hoher Genauigkeit vorhersagen. Durch die Kombination von maschinellem Lernen mit statistischen Methoden wie Design of Experiments und aktivem Lernen entstehen effiziente Tools, die den europäischen ERAA-Standard erfüllen. Das Ergebnis: Tausende von Szenarien können statt weniger Einzelfälle analysiert werden.',
+      image: '/coding-1841550.jpg',
       imagePosition: 'left'
     }
   ];
 
   return (
-    <section id="project" className="py-12 sm:py-16 bg-white">
+    <section id="project" className="py-20 sm:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <h2
-          ref={titleRef}
-          className={`text-3xl sm:text-4xl font-black text-gray-900 mb-8 sm:mb-12 transition-all duration-1000 ${
-            titleVisible
-              ? 'opacity-100 translate-y-0'
-              : 'opacity-0 translate-y-8'
-          }`}
-        >
-          Das Projekt
-        </h2>
-
-        <div className="space-y-8 sm:space-y-12">
+        <div className="space-y-32">
           {sections.map((section, index) => {
             const { elementRef, isVisible } = useScrollAnimation(0.15);
 
@@ -52,7 +29,7 @@ export default function Project() {
               <div
                 key={index}
                 ref={elementRef}
-                className={`grid md:grid-cols-2 gap-6 sm:gap-8 items-start ${
+                className={`grid md:grid-cols-2 gap-12 items-center ${
                   section.imagePosition === 'left' ? 'md:flex-row-reverse' : ''
                 }`}
               >
@@ -65,8 +42,8 @@ export default function Project() {
                       : 'opacity-0 -translate-x-12'
                   } ${section.imagePosition === 'left' ? 'md:order-2' : ''}`}
                 >
-                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">{section.title}</h3>
-                  <p className="text-gray-700 leading-relaxed text-sm">{section.content}</p>
+                  <h3 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">{section.title}</h3>
+                  <p className="text-gray-700 leading-relaxed text-base">{section.content}</p>
                 </div>
 
                 <div
@@ -78,13 +55,15 @@ export default function Project() {
                       : 'opacity-0 translate-x-12'
                   } ${section.imagePosition === 'left' ? 'md:order-1' : ''}`}
                 >
-                  <div className="relative rounded overflow-hidden group">
-                    <img
-                      src={section.image}
-                      alt={section.title}
-                      className="w-full h-48 sm:h-64 md:h-72 object-cover transition-transform duration-700 group-hover:scale-110"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                  <div className="relative">
+                    <div className="absolute -inset-4 bg-gray-200 rounded-lg"></div>
+                    <div className="relative rounded-lg overflow-hidden shadow-lg">
+                      <img
+                        src={section.image}
+                        alt={section.title}
+                        className="w-full h-64 sm:h-80 md:h-96 object-cover"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
