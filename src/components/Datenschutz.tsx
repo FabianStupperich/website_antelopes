@@ -192,9 +192,6 @@ export default function Datenschutz() {
             <p className="mb-4">
               Weitere Informationen zu Google Fonts finden Sie unter <a href="https://developers.google.com/fonts/faq" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://developers.google.com/fonts/faq</a> und in der Datenschutzerklärung von Google: <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://policies.google.com/privacy?hl=de</a>.
             </p>
-            <p className="mb-4 text-sm text-gray-600">
-              Quelle: <a href="https://www.e-recht24.de" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://www.e-recht24.de</a>
-            </p>
           </section>
         </div>
       </div>
