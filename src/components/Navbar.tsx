@@ -52,34 +52,34 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center space-x-4 xl:space-x-6 absolute left-1/2 transform -translate-x-1/2">
             <button
               onClick={() => handleSectionClick('project')}
-              className="text-white hover:text-white transition-colors text-sm"
+              className={`transition-colors text-sm ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-black hover:text-gray-700'}`}
             >
               Projekt
             </button>
             <button
               onClick={() => navigate('/konsortium')}
-              className="text-white hover:text-white transition-colors text-sm"
+              className={`transition-colors text-sm ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-black hover:text-gray-700'}`}
             >
               Konsortium
             </button>
             <button
               onClick={() => navigate('/news')}
-              className="text-white hover:text-white transition-colors text-sm"
+              className={`transition-colors text-sm ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-black hover:text-gray-700'}`}
             >
               News
             </button>
             <button
               onClick={() => navigate('/publikationen')}
-              className="text-white hover:text-white transition-colors text-sm"
+              className={`transition-colors text-sm ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-black hover:text-gray-700'}`}
             >
               Publikationen
             </button>
-          </div> 
+          </div>
 
           <div className="hidden lg:flex items-center space-x-3">
             <button
               onClick={() => handleSectionClick('contact')}
-              className="bg-white text-black px-5 py-2 rounded-full hover:bg-gray-200 transition-colors text-sm font-semibold"
+              className={`px-5 py-2 rounded-full transition-colors text-sm font-semibold ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'bg-white text-black hover:bg-gray-200' : 'bg-black text-white hover:bg-gray-800'}`}
             >
               Kontakt
             </button>
