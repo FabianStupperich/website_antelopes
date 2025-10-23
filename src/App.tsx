@@ -11,7 +11,7 @@ function App() {
     <div className="min-h-screen bg-white">
       <Navbar />
       <Hero />
-      <div className="bg-white py-12 px-16">
+      <div className="bg-white py-6 px-16">
         <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-16 items-center">
           <div className="flex items-center justify-start gap-12 flex-wrap">
             <div className="flex items-center justify-center">
