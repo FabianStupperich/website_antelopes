@@ -47,7 +47,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           <button onClick={() => navigate('/')} className="flex items-center space-x-2">
             <img
-              src={isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? "/Antelopes_Logo_weiss.svg" : "/Antelopes_Logo_Dunkelgrau.svg"}
+              src={isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? "/Antelopes_Logo_Weiss.svg" : "/Antelopes_Logo_Dunkelgrau.svg"}
               alt="VAELUES Logo"
               className="h-6 sm:h-8"
             />
