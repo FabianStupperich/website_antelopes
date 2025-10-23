@@ -21,11 +21,6 @@ export default function ConsortiumDetailed() {
         {
           title: 'Projektrolle',
           content: 'Im Rahmen des Projektvorhabens VAELUES beschäftigt sich FCN-ESE schwerpunktmäßig mit den sozioökonomischen Versorgungssicherheitsindikatoren. Angesichts ihrer wachsenden Bedeutung und der veränderten Rahmenbedingungen durch die Transformation des Energiesystems sollen diese adäquat berechnet werden. Zudem sollen sie durch die Zusammenführung mit der technischen Versorgungssicherheitsmodellierung in einen ganzheitlichen Ansatz zur Bewertung der Resource Adequacy überführt werden. Die Arbeit des FCN-ESE im Projekt konzentriert sich auf drei Kernziele:',
-          bullets: [
-            'Bereitstellung eines umfassenden und standardisierten Rahmens für die Bewertung verbraucherspezifischer, regionaler und zeitlicher Value of Lost Load Werte',
-            'Identifizierung relevanter sozioökonomischer Indikatoren, die als Grundlage für die Anpassung der entwickelten Methoden zur Abbildung zukünftiger Entwicklungen im Energiesystem dienen',
-            'Zusammenführung der sozioökonomischen mit der technischen Perspektive und ganzheitliche Bewertung zukünftiger Energiesystemszenarien'
-          ]
         }
       ]
     },
@@ -42,11 +37,6 @@ export default function ConsortiumDetailed() {
         {
           title: 'Projektrolle',
           content: 'Im Rahmen des Projektvorhabens VAELUES richtet sich der Fokus des IAEW auf die technische Dimension der Resource Adequacy. Dabei wird insbesondere die Berücksichtigung nicht nur marktbezogener Ressourcen, sondern auch gebotszoneninterner Übertragungsressourcen sowie deren Unsicherheiten in der Bewertung der Resource Adequacy als zentral erachtet. In enger Zusammenarbeit mit dem FCN-ESE soll die technische Modellierung der Resource Adequacy mit den sozioökonomischen Indikatoren integriert werden, um einen ganzheitlichen Ansatz zur Bewertung der Resource Adequacy zu entwickeln. Die spezifischen Arbeitsziele des IAEW im Rahmen dieses Projekts sind:',
-          bullets: [
-            'Weiterentwicklung eines technischen Modells zur Bewertung der Resource Adequacy unter Berücksichtigung von gebotszoneninternen Übertragungsressourcen sowie deren Unsicherheiten',
-            'Identifikation und Analyse des Einflusses von gebotszoneninternen Netzengpässen auf die technischen Indikatoren der Resource Adequacy',
-            'Zusammenführung der sozioökonomischen mit der technischen Perspektive und ganzheitliche Bewertung zukünftiger Energiesystemszenarien',
-          ]
         }
       ]
     },
@@ -63,11 +53,6 @@ export default function ConsortiumDetailed() {
         {
           title: 'Projektrolle',
           content: 'Im Zuge des Forschungsvorhaben VAELUES unterstützt der Projektpartner Volatile GmbH die Analyse der Versorgungssicherheitsindikatoren durch den Aufbau und die Bereitstellung eines Datenmanagementsystems sowie durch die Entwicklung einer graphischen Oberfläche zur Ergebnisvisualisierung und Auswertung. Neben der Koordination des operativen Datenmanagements wird die notwendige ökonomische Datenbasis zur Verfügung gestellt. Die graphische Visualisierung der Projektergebnisse soll in Form eines Online-Tools erfolgen.',
-          bullets: [
-            'Entwicklung und Koordination eines partnerübergreifenden Datenmanagementsystems zur Akquise, Verarbeitung und Generierung einer sozioökonomischen Datenbasis',
-            'Unterstützung bei der Validierung sozioökonomischer Modellierungen durch die Bereitstellung regional, zeitlich und sektoral hochaufgelöster Daten',
-            'Entwicklung und Hosting eines digitalen Tools zur interaktiven Ergebnisvisualisierung',
-          ]
         }
       ]
     }
