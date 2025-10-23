@@ -3,7 +3,7 @@ export default function Hero() {
     <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden bg-white sm:bg-transparent">
       <div className="absolute inset-0 hidden sm:block">
         <div
-          className="absolute inset-0 bg-[url('/wires-7997980.jpg')] bg-contain bg-center bg-no-repeat"
+          className="absolute inset-0 bg-[url('/AdobeStock_72429979.jpeg')] bg-contain bg-center bg-no-repeat"
           style={{ backgroundSize: '100%' }}
         ></div>
       </div>
