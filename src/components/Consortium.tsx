@@ -22,14 +22,6 @@ export default function Consortium() {
       content: 'Der Lehrstuhl für Übertragungsnetze und Energiewirtschaft (Leitung: Univ.-Prof. Dr.-Ing. Albert Moser) des Instituts für Elektrische Anlagen & Netze, Digitalisierung & Energiewirtschaft (IAEW) beschäftigt sich mit der mathematischen Modellierung, Optimierung und Bewertung des technisch-wirtschaftlichen Ausbaus und Betriebs von Energieversorgungssystemen. Der Fokus gilt insbesondere den Märkten, der Versorgungssicherheit und Energieübertragung sowie der Systemstabilität im elektrischen Übertragungsnetz. Durch langjährige Erfahrung als Forschungsinstitut in der Markt-, Netz- und Systemanalyse verfügt das IAEW über detaillierte Kenntnisse und ausgereifte Modelle zur Bewertung von Marktmechanismen, Netzbetriebsstrategien und Netzausbaumaßnahmen sowie der Versorgungssicherheit und Systemstabilität in sektorengekoppelten Energiesystemen.'
     },
     {
-      id: 3,
-      logo: '/MAON.png',
-      university: '',
-      subtitle: '',
-      title: 'Kurzprofil',
-      content: 'Die Maon GmbH ist eine Ausgründung aus dem IAEW der RWTH Aachen University und des Lehrstuhls für Energieversorgungsnetze und Integration Erneuerbarer Energien der Technischen Universität Berlin. In dem im Jahr 2019 gegründeten Unternehmen werden Daten, Modelle und Verfahren zur Simulation von Großhandelsmärkten für Elektrizität entwickelt und in eine Cloud-Lösung integriert. Die Marktsimulation wird regelmäßig bspw. von Netzbetreibern zur Herleitung der Netznutzung und von Händlern zur Preisprognose genutzt. Maon ist zudem als Prognose- und Datenlieferant für Marktakteure aktiv und erstellt dabei u. a. langfristige Prognosen der Strompreisverteilung für Investitionsentscheidungen in Wind- und Photovoltaikanlagen, Wasserkraftwerke, Batteriespeicher, Gasturbinen, Elektrolyseure sowie andere Industrieverbraucher.'
-    },
-    {
       id: 4,
       logo: '/volatile_white.svg',
       university: '',
