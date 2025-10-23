@@ -20,7 +20,7 @@ export default function ConsortiumDetailed() {
         },
         {
           title: 'Projektrolle',
-          content: 'Im Rahmen des Projektvorhabens VAELUES beschäftigt sich FCN-ESE schwerpunktmäßig mit den sozioökonomischen Versorgungssicherheitsindikatoren. Angesichts ihrer wachsenden Bedeutung und der veränderten Rahmenbedingungen durch die Transformation des Energiesystems sollen diese adäquat berechnet werden. Zudem sollen sie durch die Zusammenführung mit der technischen Versorgungssicherheitsmodellierung in einen ganzheitlichen Ansatz zur Bewertung der Resource Adequacy überführt werden. Die Arbeit des FCN-ESE im Projekt konzentriert sich auf drei Kernziele:',
+          content: 'Die RWTH Aachen übernimmt als Verbundkoordinator die wissenschaftliche Projektleitung und fokussiert sich auf die komplexitätsgerechte Versorgungssicherheitsbewertung sektorengekoppelter Energiesysteme. Als universitäre Forschungseinrichtung mit Expertise in der Modellierung hochkomplexer Energiesysteme entwickelt sie probabilistische Modelle basierend auf der ERAA-Methodik und führt modellvergleichende Fallstudien durch. Die RWTH verantwortet zudem das Projektmanagement, die Koordination der Arbeiten sowie die Durchführung von Stakeholder-Interviews zur Anforderungserhebung.',
         }
       ]
     },
