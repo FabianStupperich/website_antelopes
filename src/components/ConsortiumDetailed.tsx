@@ -16,7 +16,7 @@ export default function ConsortiumDetailed() {
       sections: [
         {
           title: 'Kurzprofil',
-          content: 'Der Lehrstuhl für Energiesystemökonomik (FCN-ESE, Leitung: Univ.- Prof. Dr.-Ing. Aaron Praktiknjo) der RWTH Aachen University beschäftigt sich mit Fragestellungen an der Schnittstelle zwischen Energieökonomik, Energiepolitik und Energietechnik. Die Wissenschaftler:innen des Lehrstuhls arbeiten zu den Themenkomplexen Wirtschaftlichkeit, Versorgungssicherheit und Umweltverträglichkeit. Dafür wird ein breites Spektrum an Methoden der Energiesystemanalyse eingesetzt – von Simulations- und Optimierungsmodellen über Input-Output- und Prognosemodelle bis hin zu KI-basierten Ansätzen und Lebenszyklusanalysen.'
+          content: 'Der Lehrstuhl für Energiesystemökonomik (FCN-ESE, Leitung: Prof. Dr.-Ing. Aaron Praktiknjo) der RWTH Aachen University beschäftigt sich mit energiesystemischen Fragestellungen an der Schnittstelle zwischen Energieökonomik, Energiepolitik und Energietechnik. Die Wissenschaftler:innen des Lehrstuhls arbeiten an Fragestellungen zu den Themenkomplexen Wirtschaftlichkeit, Versorgungssicherheit und Umweltverträglichkeit. Als Werkzeuge zur Untersuchung solcher Fragestellungen bedienen sie sich aus einem breiten Portfolio an Methoden und Modellen der Energiesystemanalyse (Simulations- und Optimierungsmodelle, Input-Output-Modelle, stochastische Prognosemodelle, KI-basierte Methoden, Lebenszyklusanalysen, u.a.). '
         },
         {
           title: 'Projektrolle',
