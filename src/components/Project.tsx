@@ -15,6 +15,18 @@ export default function Project() {
       content: 'KIVi Antelopes entwickelt KI-basierte Metamodelle, die komplexe Versorgungssicherheitsmodelle um mehrere Zehnerpotenzen beschleunigen können. Diese intelligenten Algorithmen lernen das Verhalten der ursprünglichen Simulationsmodelle und können deren Ergebnisse in Millisekunden mit hoher Genauigkeit vorhersagen. Durch die Kombination von maschinellem Lernen mit statistischen Methoden wie Design of Experiments und aktivem Lernen entstehen effiziente Tools, die den europäischen ERAA-Standard erfüllen. Das Ergebnis: Tausende von Szenarien können statt weniger Einzelfälle analysiert werden.',
       image: '/coding-1841550.jpg',
       imagePosition: 'left'
+    },
+    {
+      title: 'Projektziele',
+      content: 'Die Bewertung der Versorgungssicherheit mit Elektrizität wird durch die Energiewende zunehmend komplexer. Hochkomplexe Simulationsmodelle, die alle relevanten Systemkomponenten wie erneuerbare Energien, Speicher und Sektorkopplung berücksichtigen, benötigen für eine einzige Szenarioberechnung bis zu 8 Stunden. Diese extremen Rechenzeiten begrenzen die Anzahl untersuchbarer Szenarien drastisch und verhindern umfassende Analysen verschiedener Zukunftspfade. Gleichzeitig steigen die Anforderungen der europäischen Regulierungsbehörden an die Versorgungssicherheitsbewertung stetig – ein Dilemma zwischen Modellkomplexität und verfügbaren Rechenressourcen.',
+      image: '/energy-4030427.jpg',
+      imagePosition: 'right'
+    },
+    {
+      title: 'Bedeutung für die Energiewende',
+      content: 'Die Bewertung der Versorgungssicherheit mit Elektrizität wird durch die Energiewende zunehmend komplexer. Hochkomplexe Simulationsmodelle, die alle relevanten Systemkomponenten wie erneuerbare Energien, Speicher und Sektorkopplung berücksichtigen, benötigen für eine einzige Szenarioberechnung bis zu 8 Stunden. Diese extremen Rechenzeiten begrenzen die Anzahl untersuchbarer Szenarien drastisch und verhindern umfassende Analysen verschiedener Zukunftspfade. Gleichzeitig steigen die Anforderungen der europäischen Regulierungsbehörden an die Versorgungssicherheitsbewertung stetig – ein Dilemma zwischen Modellkomplexität und verfügbaren Rechenressourcen.',
+      image: '/energy-4030427.jpg',
+      imagePosition: 'right'
     }
   ];
 
