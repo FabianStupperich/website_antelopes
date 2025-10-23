@@ -156,7 +156,7 @@ export default function Consortium() {
                     className={`w-8 h-8 sm:w-10 sm:h-10 text-white rounded-full flex items-center justify-center transition-all hover:scale-110 ${
                       expandedId === partner.id ? 'rotate-180' : ''
                     }`}
-                    style={{ backgroundColor: '#EA385A' }}
+                    style={{ backgroundColor: '#B34A22' }}
                   >
                     <ChevronDown className="w-4 h-4 sm:w-5 sm:h-5" />
                   </button>
