@@ -42,7 +42,7 @@ export default function Hero() {
       </div>
 
       <div
-        className="absolute bottom-4 sm:bottom-8 left-4 sm:left-6 right-4 sm:right-6 flex justify-center gap-4 sm:gap-8 text-gray-900 sm:text-white text-xs sm:text-sm animate-[fadeIn_1s_ease-out]"
+        className="absolute bottom-4 sm:bottom-8 left-4 sm:left-6 right-4 sm:right-6 flex justify-center gap-4 sm:gap-8 text-gray-900 sm:text-black text-xs sm:text-sm animate-[fadeIn_1s_ease-out]"
         style={{ animationDelay: '1s', animationFillMode: 'both' }}
       >
         <a href="/impressum" className="hover:underline transition-all hover:text-pink-600 sm:hover:text-pink-300">Impressum</a>
