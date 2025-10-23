@@ -8,36 +8,12 @@ export default function Hero() {
         ></div>
       </div>
 
-      <div className="relative z-10 w-full px-4 sm:px-6 py-20 sm:py-32">
+      <div className="relative z-10 w-full h-full flex items-end pb-20 sm:pb-24">
         <div
-          className="mb-16 sm:mb-24 mt-8 sm:mt-12 flex justify-center sm:justify-start sm:ml-0 md:ml-32 lg:ml-64 animate-[fadeInUp_1s_ease-out]"
+          className="pl-4 sm:pl-8 md:pl-12 animate-[fadeInUp_1s_ease-out]"
           style={{ animationDelay: '0.2s', animationFillMode: 'both' }}
         >
-          <img src="/KIVi_Antelopes_Logo.svg" alt="VAELUES Logo" className="h-24 sm:h-32 md:h-48 lg:h-56 sm:hidden" />
-          <img src="/KIVi_Antelopes_Logo.svg" alt="VAELUES Logo" className="h-24 sm:h-32 md:h-48 lg:h-56 hidden sm:block" />
-        </div>
-
-        <div className="hidden sm:flex flex-wrap items-center justify-center gap-6 sm:gap-8 md:gap-12 lg:gap-16 max-w-7xl mx-auto">
-          {[
-            { logo: '/LOGO_ESE.png', url: 'https://www.fcn.eonerc.rwth-aachen.de/cms/~dndh/E-ON-ERC-FCN/' },
-            { logo: '/LogoIAEW.png', url: 'https://www.iaew.rwth-aachen.de/' },
-            { logo: '/MAON.png', url: 'https://www.maon.eu/' },
-            { logo: '/volatile_white.svg', url: 'https://www.volatile.de/' }
-          ].map((partner, index) => (
-            <a
-              key={partner.logo}
-              href={partner.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mb-2 sm:mb-4 mt-1 sm:mt-2 animate-[fadeInUp_1s_ease-out] hover:opacity-80 transition-opacity"
-              style={{
-                animationDelay: `${0.4 + index * 0.1}s`,
-                animationFillMode: 'both'
-              }}
-            >
-              <img src={partner.logo} alt="Partner Logo" className="h-8 sm:h-10 md:h-12 lg:h-12" />
-            </a>
-          ))}
+          <img src="/KIVi_Antelopes_Logo.svg" alt="KIVI Antelopes Logo" className="h-16 sm:h-20 md:h-24 lg:h-28" />
         </div>
       </div>
 
