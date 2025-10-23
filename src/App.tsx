@@ -15,7 +15,7 @@ function App() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-12 items-center">
           <div className="flex items-center justify-center gap-8 flex-wrap">
             <div className="w-full max-w-xs aspect-[1.5/1] flex items-center justify-center">
-              <img src="/home/project/public/BMWE_Logo_mit_Fooerderzusatz_de.png" alt="BMWi Logo" className="w-full h-full object-contain" />
+              <img src="/BMWE_Logo_mit_Fooerderzusatz_de.png" alt="BMWi Logo" className="w-full h-full object-contain" />
             </div>
             <div className="w-32 h-32 flex items-center justify-center">
               <img src="/Hochschule_Düsseldorf_logo.svg" alt="Hochschule Düsseldorf Logo" className="w-full h-full object-contain" />
@@ -23,8 +23,8 @@ function App() {
             <div className="w-32 h-32 flex items-center justify-center">
               <img src="/Antelopes_Logo_Dunkelgrau.svg" alt="Antelopes Logo" className="w-full h-full object-contain" />
             </div>
-            <div className="w-32 h-32 flex items-center justify-center">
-              <img src="/home/project/public/BMWE_Logo_mit_Fooerderzusatz_de.png" alt="BMWE Logo" className="w-full h-full object-contain bg-gray-800 rounded-lg p-4" />
+            <div className="w-32 h-32 flex items-center justify-center bg-gray-800 rounded-lg p-4">
+              <img src="/volatile_white.svg" alt="Volatile Logo" className="w-full h-full object-contain" />
             </div>
           </div>
 
