@@ -24,10 +24,7 @@ function App() {
               <img src="/Hochschule_Duesseldorf_logo.svg" alt="Hochschule Düsseldorf Logo" className="h-16 w-auto object-contain" />
             </div>
             <div className="flex items-center justify-center">
-              <img src="/Antelopes_Logo_Dunkelgrau.svg" alt="Antelopes Logo" className="h-16 w-auto object-contain" />
-            </div>
-            <div className="flex items-center justify-center">
-              <img src="/volatile_schwarz.svg" alt="Volatile Logo" className="h-16 w-auto object-contain" />
+              <img src="/BMWE_Logo_mit_Fooerderzusatz_de.png" alt="Volatile Logo" className="h-16 w-auto object-contain" />
             </div>
           </div>
 
