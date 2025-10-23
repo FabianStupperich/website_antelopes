@@ -13,7 +13,7 @@ function App() {
       <Hero />
       <div className="bg-white py-12 px-16">
         <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-16 items-center">
-          <div className="flex items-center justify-start gap-8 flex-wrap">
+          <div className="flex items-center justify-start gap-12 flex-wrap">
             <div className="flex items-center justify-center">
               <img src="/rwth_eerc_rgb.png" alt="BMWE Logo" className="h-24 w-auto object-contain" />
             </div>
