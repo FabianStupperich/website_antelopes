@@ -15,7 +15,7 @@ function App() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center mb-8">
             <div>
-              <img src="/KIVi_Antelopes_Logo.svg" alt="KIVi Antelopes Logo" className="w-full h-20 object-contain" />
+              <img src="/BMWE_Logo_mit_Fooerderzusatz_de.png" alt="KIVi Antelopes Logo" className="w-full h-20 object-contain" />
             </div>
             <div>
               <img src="/Hochschule_Duesseldorf_logo.svg" alt="Hochschule Düsseldorf Logo" className="w-full h-20 object-contain" />
