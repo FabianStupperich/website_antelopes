@@ -24,7 +24,7 @@ function App() {
               <img src="/Antelopes_Logo_Dunkelgrau.svg" alt="Antelopes Logo" className="w-full h-20 object-contain" />
             </div>
             <div>
-              <img src="/volatile_white.svg" alt="Volatile Logo" className="w-full h-20 object-contain" />
+              <img src="/volatile_schwarz.svg" alt="Volatile Logo" className="w-full h-20 object-contain" />
             </div>
           </div>
 
