@@ -46,7 +46,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3">
         <div className="flex items-center justify-between">
           <button onClick={() => navigate('/')} className="flex items-center space-x-2">
-            <img src="/Antelopes_Logo_Hellgrau.svg" alt="VAELUES Logo" className="h-6 sm:h-8" />
+            <img src="/Antelopes_Logo_Dunkelgrau.svg" alt="VAELUES Logo" className="h-6 sm:h-8" />
           </button>
 
           <div className="hidden lg:flex items-center space-x-4 xl:space-x-6 absolute left-1/2 transform -translate-x-1/2">
