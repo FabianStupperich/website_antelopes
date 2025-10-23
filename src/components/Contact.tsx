@@ -17,19 +17,19 @@ export default function Contact() {
                 <h4 className="font-semibold text-gray-900 mb-1 text-sm">Lehrstuhl für Energiesystemökonomik (FCN-ESE)</h4>
                 <h4 className="text-gray-900 mb-1 text-sm">E.ON Energy Research Center</h4>
                 <h4 className="text-gray-900 mb-1 text-sm">RWTH Aachen University</h4> <br />
-                <h4 className="font-semibold text-gray-900 mb-1 text-sm">Ansprechpartner: Jakob Kulawik</h4> 
+                <h4 className="font-semibold text-gray-900 mb-1 text-sm">Ansprechpartner: Marius Tillmanns</h4> 
                </div>
               <div> 
                 <h4 className="font-semibold text-gray-900 mb-1 text-sm">Telefon</h4>
                 <p className="text-gray-600 text-sm">
-                  +49 241 80-49875
+                  +49 241 80-49873
                 </p>
               </div>
 
               <div>
                 <h4 className="font-semibold text-gray-900 mb-1 text-sm">E-Mail</h4>
                 <p className="text-gray-600 text-sm">
-                  jakob.kulawik@eonerc.rwth-aachen.de
+                  marius.tillmanns@eonerc.rwth-aachen.de
                 </p>
               </div>
             </div>
