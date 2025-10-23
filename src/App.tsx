@@ -18,10 +18,10 @@ function App() {
               <img src="/BMWE_Logo_mit_Fooerderzusatz_de.png" alt="BMWE Logo" className="h-24 w-auto object-contain" />
             </div>
             <div className="flex items-center justify-center">
-              <img src="/KIVi_Antelopes_Logo.svg" alt="KIVi Antelopes Logo" className="h-16 w-auto object-contain" />
+              <img src="/Hochschule_Duesseldorf_logo.svg" alt="KIVi Antelopes Logo" className="h-16 w-auto object-contain" />
             </div>
             <div className="flex items-center justify-center">
-              <img src="/Hochschule_Duesseldorf_logo.svg" alt="Hochschule Düsseldorf Logo" className="h-16 w-auto object-contain" />
+              <img src="/volatile_schwarz.svg" alt="Hochschule Düsseldorf Logo" className="h-16 w-auto object-contain" />
             </div>
             <div className="flex items-center justify-center">
               <img src="/BMWE_Logo_mit_Fooerderzusatz_de.png" alt="Volatile Logo" className="h-48 w-auto object-contain" />
