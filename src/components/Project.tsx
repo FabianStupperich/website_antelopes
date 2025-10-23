@@ -94,13 +94,20 @@ export default function Project() {
                     isVisible
                       ? 'opacity-100 translate-x-0'
                       : section.imagePosition === 'left'
-                      ? 'opacity-0 translate-x-12'
-                      : 'opacity-0 -translate-x-12'
-                  } ${section.imagePosition === 'left' ? 'md:order-2' : ''}`}
+                      ? 'opacity-0 -translate-x-12'
+                      : 'opacity-0 translate-x-12'
+                  } ${section.imagePosition === 'left' ? 'md:order-1' : ''}`}
                 >
-                  <h3 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">{section.title}</h3>
-                  <p className="text-gray-700 leading-relaxed text-base">{section.content}</p>
-                </div>
+                  <div className="relative">
+                    <div className="absolute -inset-4 bg-gray-200 rounded-lg"></div>
+                    <div className="relative rounded-lg overflow-hidden shadow-lg">
+                      <img
+                        src={section.image}
+                        alt={section.title}
+                        className="w-full h-64 sm:h-80 md:h-96 object-cover"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
             );
