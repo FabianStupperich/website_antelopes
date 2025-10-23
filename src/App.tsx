@@ -11,7 +11,7 @@ function App() {
     <div className="min-h-screen bg-white">
       <Navbar />
       <Hero />
-      <div className="bg-gray-50 py-12 px-6">
+      <div className="bg-white py-12 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center mb-8">
             <div className="flex items-center justify-center p-4 bg-white rounded-lg shadow-sm">
