@@ -19,7 +19,7 @@ export default function Project() {
     {
       title: 'Projektziele',
       content: 'Das Projekt entwickelt erweiterte Modelle zur ganzheitlichen Bewertung der Versorgungssicherheit und wendet diese auf das deutsche Energiesystem der Jahre 2035 und 2045 an. Die Ergebnisse münden in konkrete regionale Handlungsempfehlungen für Kapazitätserweiterungen bei Erzeugung, Speicherung und Nachfrageflexibilität. Ein interaktives Visualisierungstool macht die komplexen Zusammenhänge für Stakeholder aus Politik, Wirtschaft und Wissenschaft zugänglich.',
-      image: '/wires-7997980.jpg',
+      image: '/coding-1841550.jpg',
       imagePosition: 'right'
     },
     {
