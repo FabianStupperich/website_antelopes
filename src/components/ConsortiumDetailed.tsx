@@ -36,7 +36,7 @@ export default function ConsortiumDetailed() {
         },
         {
           title: 'Projektrolle',
-          content: 'Im Rahmen des Projektvorhabens VAELUES richtet sich der Fokus des IAEW auf die technische Dimension der Resource Adequacy. Dabei wird insbesondere die Berücksichtigung nicht nur marktbezogener Ressourcen, sondern auch gebotszoneninterner Übertragungsressourcen sowie deren Unsicherheiten in der Bewertung der Resource Adequacy als zentral erachtet. In enger Zusammenarbeit mit dem FCN-ESE soll die technische Modellierung der Resource Adequacy mit den sozioökonomischen Indikatoren integriert werden, um einen ganzheitlichen Ansatz zur Bewertung der Resource Adequacy zu entwickeln. Die spezifischen Arbeitsziele des IAEW im Rahmen dieses Projekts sind:',
+          content: 'Das Zentrum für Innovative Energiesysteme der HSD leitet die technische Entwicklung und Validierung der KI-basierten Metamodelle. Mit ihrer spezialisierten Expertise in maschinellem Lernen und Metamodellierung entwickelt die HSD maßgeschneiderte Lösungsansätze für die Approximation von ERAA-Modellen. Sie erprobt verschiedene methodische Ansätze zur teil- oder ganzheitlichen Approximation und integriert Design of Experiments sowie Algorithmen des aktiven Lernens in die Metamodellierung.',
         }
       ]
     },
