@@ -58,7 +58,7 @@ export default function ConsortiumDetailed() {
       sections: [
         {
           title: 'Kurzprofil',
-          content: 'Die Volatile GmbH ist eine Ausgründung aus dem Lehrstuhl für Energiesystemökonomik an der RWTH Aachen University. Volatile entwickelt Software as a Service (SaaS)-Anwendungen für Energiedatenplattformen und Energiesystemanalysen und kombiniert dabei die Vorteile von Automatisierung und künstlicher Intelligenz mit State of the Art Methoden aus der energiesystemanalytischen Forschung. Mit dem volatile Data Hub wird Kunden aus den Bereichen Energiewirtschaft, energieintensive Industrie sowie Energieberatung eine Energiedatenplattform zu historischen und zukünftigen Entwicklungen im Energiesystem bereitgestellt. Mit den volatile On-Demand-Anwendungen wird ein niederschwelliger Zugang zu komplexen energiesystemanalytischen Werkzeugen angeboten.'
+          content: 'Die Volatile GmbH ist eine Ausgründung aus dem Lehrstuhl für Energiesystemökonomik an der RWTH Aachen University. Volatile entwickelt Software as a Service (SaaS)-Anwendungen für Energiedatenplattformen und Energiesystemanalysen und kombiniert dabei die Vorteile von Automatisierung und künstlicher Intelligenz mit State of the Art Methoden aus der energiesystemanalytischen Forschung. Mit dem volatile Data Hub wird Kunden aus den Bereichen Energiewirtschaft, energieintensive Industrie sowie Energieberatung eine Energiedatenplattform zu historischen und zukünftigen Entwicklungen im Energiesystem bereitgestellt. Mit den volatile On-Demand-Anwendungen wird ein niederschwelliger Zugang zu komplexen energiesystemanalytischen Werkzeugen angeboten. '
         },
         {
           title: 'Projektrolle',
