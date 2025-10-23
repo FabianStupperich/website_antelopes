@@ -14,7 +14,7 @@ function App() {
       <div className="bg-white py-12 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center mb-8">
-            <div className="flex items-center justify-center p-4 bg-white rounded-lg shadow-sm">
+            <div>
               <img src="/KIVi_Antelopes_Logo.svg" alt="KIVi Antelopes Logo" className="w-full h-20 object-contain" />
             </div>
             <div>
@@ -23,7 +23,7 @@ function App() {
             <div>
               <img src="/Antelopes_Logo_Dunkelgrau.svg" alt="Antelopes Logo" className="w-full h-20 object-contain" />
             </div>
-            <div className="flex items-center justify-center p-4 bg-gray-900 rounded-lg shadow-sm">
+            <div>
               <img src="/volatile_white.svg" alt="Volatile Logo" className="w-full h-20 object-contain" />
             </div>
           </div>
