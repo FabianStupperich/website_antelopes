@@ -46,8 +46,8 @@ export default function Hero() {
         style={{ animationDelay: '1s', animationFillMode: 'both' }}
       >
         <a href="/impressum" className="hover:underline transition-all sm:hover:text-black">Impressum</a>
-        <a href="/datenschutz" className="hover:underline transition-all  sm:hover:text-pink-300">Datenschutz</a>
-        <a href="#contact" className="hover:underline transition-all  sm:hover:text-pink-300">Kontakt</a>
+        <a href="/datenschutz" className="hover:underline transition-all  sm:hover:text-black">Datenschutz</a>
+        <a href="#contact" className="hover:underline transition-all  sm:hover:text-black">Kontakt</a>
       </div>
     </section>
   );
