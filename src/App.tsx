@@ -18,7 +18,7 @@ function App() {
               <img src="/KIVi_Antelopes_Logo.svg" alt="KIVi Antelopes Logo" className="w-full h-20 object-contain" />
             </div>
             <div className="flex items-center justify-center p-4 bg-white rounded-lg shadow-sm">
-              <img src="/Hochschule_Düsseldorf_logo.svg" alt="Hochschule Düsseldorf Logo" className="w-full h-20 object-contain" />
+              <img src="/Hochschule_Duesseldorf_logo.svg" alt="Hochschule Düsseldorf Logo" className="w-full h-20 object-contain" />
             </div>
             <div className="flex items-center justify-center p-4 bg-white rounded-lg shadow-sm">
               <img src="/Antelopes_Logo_Dunkelgrau.svg" alt="Antelopes Logo" className="w-full h-20 object-contain" />
