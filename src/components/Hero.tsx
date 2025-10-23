@@ -14,7 +14,7 @@ export default function Hero() {
           style={{ animationDelay: '0.2s', animationFillMode: 'both' }}
         >
           <img src="/Antelopes_Logo_Dunkelgrau.svg" alt="VAELUES Logo" className="h-24 sm:h-32 md:h-48 lg:h-56 sm:hidden" />
-          <img src="/VaeluesLogoWeiss.svg" alt="VAELUES Logo" className="h-24 sm:h-32 md:h-48 lg:h-56 hidden sm:block" />
+          <img src="/Antelopes_Logo_Dunkelgrau.svg" alt="VAELUES Logo" className="h-24 sm:h-32 md:h-48 lg:h-56 hidden sm:block" />
         </div>
 
         <div className="hidden sm:flex flex-wrap items-center justify-center gap-6 sm:gap-8 md:gap-12 lg:gap-16 max-w-7xl mx-auto">
