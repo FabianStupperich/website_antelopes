@@ -17,14 +17,6 @@ export default function Hero() {
         </div>
       </div>
 
-      <div
-        className="absolute bottom-4 sm:bottom-8 left-4 sm:left-6 right-4 sm:right-6 flex justify-center gap-4 sm:gap-8 text-gray-900 sm:text-black text-xs sm:text-sm animate-[fadeIn_1s_ease-out]"
-        style={{ animationDelay: '1s', animationFillMode: 'both' }}
-      >
-        <a href="/impressum" className="hover:underline transition-all sm:hover:text-black">Impressum</a>
-        <a href="/datenschutz" className="hover:underline transition-all  sm:hover:text-black">Datenschutz</a>
-        <a href="#contact" className="hover:underline transition-all  sm:hover:text-black">Kontakt</a>
-      </div>
     </section>
   );
 }
