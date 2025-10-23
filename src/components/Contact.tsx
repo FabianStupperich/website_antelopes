@@ -6,7 +6,7 @@ export default function Contact() {
           <div>
             <h2 className="text-3xl sm:text-4xl font-black text-gray-900 mb-4">KONTAKT</h2>
             <p className="text-gray-600 mb-6 sm:mb-8 leading-relaxed text-sm">
-              Haben Sie Fragen zum Projekt VAELUES oder möchten Sie mehr über unsere Forschungsarbeit erfahren? Wir freuen uns darauf, von Ihnen zu hören. Kontaktieren Sie uns gerne über die nachstehenden Kanäle und wir melden uns zeitnah bei Ihnen zurück.
+              Haben Sie Fragen zum Projekt KIVi-Antelopes oder möchten Sie mehr über unsere Forschungsarbeit erfahren? Wir freuen uns darauf, von Ihnen zu hören. Kontaktieren Sie uns gerne über die nachstehenden Kanäle und wir melden uns zeitnah bei Ihnen zurück.
             </p>
           </div>
 
