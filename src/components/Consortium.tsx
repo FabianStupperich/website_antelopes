@@ -15,7 +15,7 @@ export default function Consortium() {
     },
     {
       id: 2,
-      logo: '/show_picture.svg',
+      logo: '/Hochschule_Duesseldorf_logo.svg',
       university: '',
       subtitle: '',
       title: 'Kurzprofil',
