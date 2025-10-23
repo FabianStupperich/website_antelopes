@@ -28,7 +28,7 @@ function App() {
             </div>
           </div>
 
-          <div className="text-gray-700" style={{ fontSize: '0.7vw', lineHeight: '1.5' }}>
+          <div className="text-gray-700" style={{ fontSize: '0.8vw', lineHeight: '2.5' }}>
             <div style={{ marginBottom: '1.5vh' }}>
               <h3 className="font-semibold" style={{ marginBottom: '0.5vh' }}>Förderprogramm:</h3>
               <p>
