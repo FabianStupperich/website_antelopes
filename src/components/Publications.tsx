@@ -10,7 +10,7 @@ export default function Publications() {
       title: 'Künstliche Intelligenz bei der Untersuchung der Versorgungssicherheit mit Elektrizität: Angewandte Metamodellierung für die robuste Optimierung der Resilienz und Adäquanz sektorengekoppelter hochkomplexer Energiesysteme (KIVi Antelopes)',
       authors: 'Lehrstuhl für Energiesystemökonomik (FCN-ESE) - RWTH Aachen University',
       date: ' September 2025',
-      link: 'https://www.fcn.eonerc.rwth-aachen.de/cms/e-on-erc-fcn/forschung/forschungsprojekte/-neu-forschungsprojekte-fcn-ese/~bqeiri/kivi-antelopes/?lidx=1'
+      link: 'https://www.fcn.eonerc.rwth-aachen.de/cms/e-on-erc-fcn/forschung/forschungsprojekte/-neu-forschungsprojekte-fcn-ese/~bqeiri/kivi-antelopes/'
     }
   ];
 
