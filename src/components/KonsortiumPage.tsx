@@ -1,13 +1,13 @@
 import Navbar from './Navbar';
 import Footer from './Footer';
-import Consortium from './Consortium';
+import ConsortiumDetailed from './ConsortiumDetailed';
 
 export default function KonsortiumPage() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
       <div className="pt-20">
-        <Consortium />
+        <ConsortiumDetailed />
       </div>
       <Footer />
     </div>
