@@ -11,20 +11,20 @@ function App() {
     <div className="min-h-screen bg-white">
       <Navbar />
       <Hero />
-      <div className="bg-white py-0 px-16">
+      <div className="bg-white py-0 px-16"> 
         <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-16 items-center">
           <div className="flex items-center justify-start gap-12 flex-wrap">
             <div className="flex items-center justify-center">
               <img src="/rwth_eerc_rgb.png" alt="BMWE Logo" className="h-24 w-auto object-contain" />
             </div>
             <div className="flex items-center justify-center">
-              <img src="/Hochschule_Duesseldorf_logo.svg" alt="KIVi Antelopes Logo" className="h-auto w-auto object-contain" />
+              <img src="/Hochschule_Duesseldorf_logo.svg" alt="KIVi Antelopes Logo" className="h-24 w-auto object-contain" />
             </div>
             <div className="flex items-center justify-center">
-              <img src="/volatile_schwarz.svg" alt="Hochschule Düsseldorf Logo" className="h-auto w-auto object-contain" />
+              <img src="/volatile_schwarz.svg" alt="Hochschule Düsseldorf Logo" className="h-16 w-auto object-contain" />
             </div>
             <div className="flex items-center justify-center">
-              <img src="/BMWE_Logo_mit_Fooerderzusatz_de.png" alt="Volatile Logo" className="h-auto w-auto object-contain" />
+              <img src="/BMWE_Logo_mit_Fooerderzusatz_de.png" alt="Volatile Logo" className="h-48 w-auto object-contain" />
             </div>
           </div>
 
