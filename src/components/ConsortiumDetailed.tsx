@@ -31,7 +31,7 @@ export default function ConsortiumDetailed() {
     },
     {
       id: 2,
-      logo: '/show_picture.svg',
+      logo: '/Hochschule_Duesseldorf_logo.svg',
       university: '',
       subtitle: '',
       sections: [
