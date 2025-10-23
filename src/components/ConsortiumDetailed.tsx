@@ -20,7 +20,7 @@ export default function ConsortiumDetailed() {
         },
         {
           title: 'Projektrolle',
-          content: 'Die RWTH Aachen übernimmt als Verbundkoordinator die wissenschaftliche Projektleitung und fokussiert sich auf die komplexitätsgerechte Versorgungssicherheitsbewertung sektorengekoppelter Energiesysteme. Als universitäre Forschungseinrichtung mit Expertise in der Modellierung hochkomplexer Energiesysteme entwickelt sie probabilistische Modelle basierend auf der ERAA-Methodik und führt modellvergleichende Fallstudien durch. Die RWTH verantwortet zudem das Projektmanagement, die Koordination der Arbeiten sowie die Durchführung von Stakeholder-Interviews zur Anforderungserhebung.',
+          content: 'Der Lehrstuhl für Energiesystemökonomik übernimmt als Verbundkoordinator die wissenschaftliche Projektleitung und fokussiert sich auf die komplexitätsgerechte Versorgungssicherheitsbewertung sektorengekoppelter Energiesysteme. Als universitäre Forschungseinrichtung mit Expertise in der Modellierung hochkomplexer Energiesysteme entwickelt sie probabilistische Modelle basierend auf der ERAA-Methodik und führt modellvergleichende Fallstudien durch. Die RWTH verantwortet zudem das Projektmanagement, die Koordination der Arbeiten sowie die Durchführung von Stakeholder-Interviews zur Anforderungserhebung.',
         }
       ]
     },
