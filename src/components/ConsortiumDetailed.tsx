@@ -51,27 +51,6 @@ export default function ConsortiumDetailed() {
       ]
     },
     {
-      id: 3,
-      logo: '/MAON.png',
-      university: '',
-      subtitle: '',
-      sections: [
-        {
-          title: 'Kurzprofil',
-          content: 'Die Maon GmbH ist eine Ausgründung aus dem IAEW der RWTH Aachen University und des Lehrstuhls für Energieversorgungsnetze und Integration Erneuerbarer Energien der Technischen Universität Berlin. In dem im Jahr 2019 gegründeten Unternehmen werden Daten, Modelle und Verfahren zur Simulation von Großhandelsmärkten für Elektrizität entwickelt und in eine Cloud-Lösung integriert. Die Marktsimulation wird regelmäßig bspw. von Netzbetreibern zur Herleitung der Netznutzung und von Händlern zur Preisprognose genutzt. Maon ist zudem als Prognose- und Datenlieferant für Marktakteure aktiv und erstellt dabei u. a. langfristige Prognosen der Strompreisverteilung für Investitionsentscheidungen in Wind- und Photovoltaikanlagen, Wasserkraftwerke, Batteriespeicher, Gasturbinen, Elektrolyseure sowie andere Industrieverbraucher.'
-        },
-        {
-          title: 'Projektrolle',
-          content: 'Im Rahmen des Projektvorhabens VAELUES trägt Maon schwerpunktmäßig mit einer Zusammenstellung von technischen Eingangsdaten und der Validierung des neuen ganzheitlichen Verfahrens zur Bewertung der Resource Adequacy bei. Aus dieser primären Zielstellung ergeben sich die folgenden untergeordneten Arbeitsziele:',
-          bullets: [
-            'Konzipierung und Entwicklung eines Datenmanagementsystems zur Abfrage, Verarbeitung und Generierung einer technischen Datenbasis (z. B. Kraftwerks- und Verbrauchsdaten)',
-            'Validierung des Simulationsverfahrens unter Berücksichtigung von gebotszoneninternen Übertragungsressourcen sowie deren Unsicherheiten',
-            'Unterstützung bei einer exemplarischen, praxisrelevanten Anwendung des Verfahrens mittels Einordnungen der Ergebnisse und Ableitungen von Handlungsempfehlungen',
-          ]
-        }
-      ]
-    },
-    {
       id: 4,
       logo: '/volatile_white.svg',
       university: '',
