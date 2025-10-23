@@ -13,32 +13,34 @@ function App() {
       <Hero />
       <div className="bg-white py-12 px-6">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center mb-8">
-            <div>
-              <img src="/BMWE_Logo_mit_Fooerderzusatz_de.png" alt="KIVi Antelopes Logo" className="w-full h-40 object-contain" />
-            </div>
-            <div>
-              <img src="/Hochschule_Duesseldorf_logo.svg" alt="Hochschule Düsseldorf Logo" className="w-full h-20 object-contain" />
-            </div>
-            <div>
-              <img src="/Antelopes_Logo_Dunkelgrau.svg" alt="Antelopes Logo" className="w-full h-20 object-contain" />
-            </div>
-            <div>
-              <img src="/volatile_schwarz.svg" alt="Volatile Logo" className="w-full h-20 object-contain" />
-            </div>
-          </div>
-
-          <div className="text-center text-gray-700 space-y-4 max-w-3xl mx-auto">
-            <div>
-              <h3 className="text-sm font-semibold mb-2">Förderprogramm:</h3>
-              <p className="text-sm leading-relaxed">
-                8. Energieforschungsprogramms im Förderschwerpunkt Energiesystemanalyse, sektorübergreifende Systemmodellierung und -planung
-              </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div className="grid grid-cols-2 gap-6">
+              <div className="flex items-center justify-center p-4 bg-gray-50 rounded-lg">
+                <img src="/KIVi_Antelopes_Logo.svg" alt="KIVi Antelopes Logo" className="w-full h-20 object-contain" />
+              </div>
+              <div className="flex items-center justify-center p-4 bg-gray-50 rounded-lg">
+                <img src="/Hochschule_Duesseldorf_logo.svg" alt="Hochschule Düsseldorf Logo" className="w-full h-20 object-contain" />
+              </div>
+              <div className="flex items-center justify-center p-4 bg-gray-50 rounded-lg">
+                <img src="/Antelopes_Logo_Dunkelgrau.svg" alt="Antelopes Logo" className="w-full h-20 object-contain" />
+              </div>
+              <div className="flex items-center justify-center p-4 bg-gray-50 rounded-lg">
+                <img src="/volatile_schwarz.svg" alt="Volatile Logo" className="w-full h-20 object-contain" />
+              </div>
             </div>
 
-            <div>
-              <h3 className="text-sm font-semibold mb-2">Förderkennzeichen:</h3>
-              <p className="text-sm">03EI1099C</p>
+            <div className="text-gray-700 space-y-6">
+              <div>
+                <h3 className="text-sm font-semibold mb-2">Förderprogramm:</h3>
+                <p className="text-sm leading-relaxed">
+                  8. Energieforschungsprogramms im Förderschwerpunkt Energiesystemanalyse, sektorübergreifende Systemmodellierung und -planung
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-sm font-semibold mb-2">Förderkennzeichen:</h3>
+                <p className="text-sm">03EI1099C</p>
+              </div>
             </div>
           </div>
         </div>
