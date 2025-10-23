@@ -7,10 +7,10 @@ export default function Publications() {
     {
       id: 1,
       number: 1,
-      title: 'VAELUES Kick-Off Onepager',
-      authors: 'Jakob',
+      title: 'Artificial intelligence in the investigation of electricity supply security: Applied metamodeling for the robust optimization of the resilience and adequacy of highly complex, sector-coupled energy systems (KIVi Antelopes)',
+      authors: 'Institute for Future Energy Consumer Needs and Behavior',
       date: '01.09.25',
-      link: 'https://ese.eonerc.rwth-aachen.de/'
+      link: 'https://www.fcn.eonerc.rwth-aachen.de/cms/e-on-erc-fcn/forschung/forschungsprojekte/-neu-forschungsprojekte-fcn-ese/~bqeiri/kivi-antelopes/?lidx=1'
     }
   ];
 
