@@ -17,7 +17,7 @@ export default function Project() {
     },
     {
       title: 'Projektziele',
-      content: 'Das Projekt entwickelt erweiterte Modelle zur ganzheitlichen Bewertung der Versorgungssicherheit und wendet diese auf das deutsche Energiesystem der Jahre 2035 und 2045 an. Die Ergebnisse münden in konkrete regionale Handlungsempfehlungen für Kapazitätserweiterungen bei Erzeugung, Speicherung und Nachfrageflexibilität. Ein interaktives Visualisierungstool macht die komplexen Zusammenhänge für Stakeholder aus Politik, Wirtschaft und Wissenschaft zugänglich.',
+      content: 'Das Projekt verfolgt vier zentrale Ziele: Erstens die radikale Beschleunigung aktueller Optimierungsmodelle für die Versorgungssicherheitsbewertung durch innovative Metamodellierung. Zweitens die Entwicklung ressourceneffizienter Trainings- und Validierungsverfahren für KI-basierte Modelle. Drittens die kontinuierliche Verbesserung der Metamodelle durch Algorithmen des aktiven Lernens für nachhaltigen Praxiseinsatz. Viertens die Bereitstellung einer webbasierten Analyseplattform sowie eines Open-Source-Frameworks mit Praxisleitfaden, um die entwickelten Methoden direkt für Netzbetreiber, Regulierungsbehörden und die Wissenschaft nutzbar zu machen.',
       image: '/coding-1841550.jpg',
       imagePosition: 'right'
     },
