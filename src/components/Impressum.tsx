@@ -12,7 +12,7 @@ export default function Impressum() {
           <h1 className="text-4xl font-bold mb-8">Impressum gemäß § 5 Telemediengesetz (TMG)</h1>
 
           <p className="text-lg mb-8">
-            Für die Website ist die Volatile GmbH in Vertretung für das Konsortium von VAELUES verantwortlich.
+            Für die Website ist die Volatile GmbH in Vertretung für das Konsortium von KIVi-Antelopes verantwortlich.
           </p>
           
           <section className="mb-8">
