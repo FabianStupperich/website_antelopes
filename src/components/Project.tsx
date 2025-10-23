@@ -33,6 +33,14 @@ export default function Project() {
   return (
     <section id="project" className="py-20 sm:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <h2
+          ref={titleRef}
+          className={`text-4xl sm:text-5xl font-bold text-center text-gray-900 mb-20 transition-all duration-1000 ${
+            titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+          }`}
+        >
+          Das Projekt
+        </h2>
         <div className="space-y-32">
           {sections.map((section, index) => {
             const { elementRef, isVisible } = useScrollAnimation(0.15);
