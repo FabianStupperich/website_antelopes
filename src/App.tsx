@@ -17,7 +17,7 @@ function App() {
             <div className="flex items-center justify-center p-4 bg-white rounded-lg shadow-sm">
               <img src="/KIVi_Antelopes_Logo.svg" alt="KIVi Antelopes Logo" className="w-full h-20 object-contain" />
             </div>
-            <div className="">
+            <div>
               <img src="/Hochschule_Duesseldorf_logo.svg" alt="Hochschule Düsseldorf Logo" className="w-full h-20 object-contain" />
             </div>
             <div>
