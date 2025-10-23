@@ -77,6 +77,30 @@ export default function Project() {
                       />
                     </div>
                   </div>
+                  <div
+                  className={`transition-all duration-1000 ${
+                    isVisible
+                      ? 'opacity-100 translate-x-0'
+                      : section.imagePosition === 'left'
+                      ? 'opacity-0 translate-x-12'
+                      : 'opacity-0 -translate-x-12'
+                  } ${section.imagePosition === 'left' ? 'md:order-2' : ''}`}
+                >
+                  <h3 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">{section.title}</h3>
+                  <p className="text-gray-700 leading-relaxed text-base">{section.content}</p>
+                </div>
+                  <div
+                  className={`transition-all duration-1000 ${
+                    isVisible
+                      ? 'opacity-100 translate-x-0'
+                      : section.imagePosition === 'left'
+                      ? 'opacity-0 translate-x-12'
+                      : 'opacity-0 -translate-x-12'
+                  } ${section.imagePosition === 'left' ? 'md:order-2' : ''}`}
+                >
+                  <h3 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">{section.title}</h3>
+                  <p className="text-gray-700 leading-relaxed text-base">{section.content}</p>
+                </div>
                 </div>
               </div>
             );
