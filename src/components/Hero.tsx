@@ -13,8 +13,8 @@ export default function Hero() {
           className="mb-16 sm:mb-24 mt-8 sm:mt-12 flex justify-center sm:justify-start sm:ml-0 md:ml-32 lg:ml-64 animate-[fadeInUp_1s_ease-out]"
           style={{ animationDelay: '0.2s', animationFillMode: 'both' }}
         >
-          <img src="/Antelopes_Logo_Dunkelgrau.svg" alt="VAELUES Logo" className="h-24 sm:h-32 md:h-48 lg:h-56 sm:hidden" />
-          <img src="/Antelopes_Logo_Dunkelgrau.svg" alt="VAELUES Logo" className="h-24 sm:h-32 md:h-48 lg:h-56 hidden sm:block" />
+          <img src="/KIVi_Antelopes_Logo.svg" alt="VAELUES Logo" className="h-24 sm:h-32 md:h-48 lg:h-56 sm:hidden" />
+          <img src="/KIVi_Antelopes_Logo.svg" alt="VAELUES Logo" className="h-24 sm:h-32 md:h-48 lg:h-56 hidden sm:block" />
         </div>
 
         <div className="hidden sm:flex flex-wrap items-center justify-center gap-6 sm:gap-8 md:gap-12 lg:gap-16 max-w-7xl mx-auto">
