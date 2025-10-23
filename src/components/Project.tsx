@@ -35,8 +35,10 @@ export default function Project() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <h2
           ref={titleRef}
-          className={`text-4xl sm:text-5xl font-bold text-center text-gray-900 mb-20 transition-all duration-1000 ${
-            titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+          className={`text-3xl sm:text-4xl font-black text-gray-900 mb-8 sm:mb-10 transition-all duration-1000 ${
+            titleVisible
+              ? 'opacity-100 translate-y-0'
+              : 'opacity-0 translate-y-8'
           }`}
         >
           Das Projekt
