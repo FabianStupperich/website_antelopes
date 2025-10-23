@@ -13,7 +13,7 @@ export default function Hero() {
           className="pl-4 sm:pl-8 md:pl-12 animate-[fadeInUp_1s_ease-out]"
           style={{ animationDelay: '0.2s', animationFillMode: 'both' }}
         >
-          <img src="/KIVi_Antelopes_Logo.svg" alt="KIVI Antelopes Logo" className="h-16 sm:h-20 md:h-24 lg:h-28" />
+          <img src="/KIVi_Antelopes_Logo.svg" alt="KIVI Antelopes Logo" className="h-24 sm:h-32 md:h-40 lg:h-48" />
         </div>
       </div>
 
