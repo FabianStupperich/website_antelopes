@@ -83,7 +83,8 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center space-x-3">
             <button
               onClick={() => handleSectionClick('contact')}
-              className={`px-5 py-2 rounded-full transition-colors text-sm font-semibold ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'bg-white text-black hover:bg-gray-200' : 'bg-black text-white hover:bg-gray-800'}`}
+              className="px-5 py-2 rounded-full transition-colors text-sm font-semibold text-white"
+              style={{ backgroundColor: '#B34A22' }}
             >
               Kontakt
             </button>
@@ -125,7 +126,8 @@ export default function Navbar() {
             </button>
             <button
               onClick={() => handleSectionClick('contact')}
-              className="block bg-white text-black px-6 py-2 rounded-full hover:bg-gray-200 transition-colors text-center font-semibold"
+              className="block text-white px-6 py-2 rounded-full transition-colors text-center font-semibold"
+              style={{ backgroundColor: '#B34A22' }}
             >
               Kontakt
             </button>

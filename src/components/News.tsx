@@ -212,7 +212,7 @@ export default function News() {
           }`}
         >
           <a href="/news">
-            <button className="text-white px-6 py-2 rounded-full transition-all hover:shadow-lg hover:scale-105 text-sm font-semibold" style={{ backgroundColor: '#EA385A' }}>
+            <button className="text-white px-6 py-2 rounded-full transition-all hover:shadow-lg hover:scale-105 text-sm font-semibold" style={{ backgroundColor: '#B34A22' }}>
               Alle Neuigkeiten
             </button>
           </a>
