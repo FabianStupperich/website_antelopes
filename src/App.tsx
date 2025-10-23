@@ -20,7 +20,7 @@ function App() {
             <div className="">
               <img src="/Hochschule_Duesseldorf_logo.svg" alt="Hochschule Düsseldorf Logo" className="w-full h-20 object-contain" />
             </div>
-            <div className="flex items-center justify-center p-4 bg-white rounded-lg shadow-sm">
+            <div>
               <img src="/Antelopes_Logo_Dunkelgrau.svg" alt="Antelopes Logo" className="w-full h-20 object-contain" />
             </div>
             <div className="flex items-center justify-center p-4 bg-gray-900 rounded-lg shadow-sm">
