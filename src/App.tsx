@@ -24,7 +24,7 @@ function App() {
               <img src="/Hochschule_Duesseldorf_logo.svg" alt="Hochschule Düsseldorf Logo" className="h-16 w-auto object-contain" />
             </div>
             <div className="flex items-center justify-center">
-              <img src="/BMWE_Logo_mit_Fooerderzusatz_de.png" alt="Volatile Logo" className="h-16 w-40 object-contain" />
+              <img src="/BMWE_Logo_mit_Fooerderzusatz_de.png" alt="Volatile Logo" className="h-32 w-auto object-contain" />
             </div>
           </div>
 
