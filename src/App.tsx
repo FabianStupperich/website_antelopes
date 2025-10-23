@@ -15,7 +15,7 @@ function App() {
         <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-16 items-center">
           <div className="flex items-center justify-start gap-8 flex-wrap">
             <div className="flex items-center justify-center">
-              <img src="/BMWE_Logo_mit_Fooerderzusatz_de.png" alt="BMWE Logo" className="h-24 w-auto object-contain" />
+              <img src="/rwth_eerc_rgb.png" alt="BMWE Logo" className="h-24 w-auto object-contain" />
             </div>
             <div className="flex items-center justify-center">
               <img src="/Hochschule_Duesseldorf_logo.svg" alt="KIVi Antelopes Logo" className="h-24 w-auto object-contain" />
