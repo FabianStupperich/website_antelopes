@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden bg-white sm:bg-transparent">
+    <section id="home" className="relative h-[85vh] flex items-center justify-center overflow-hidden bg-white sm:bg-transparent">
       <div className="absolute inset-0 hidden sm:block">
         <div
           className="absolute inset-0 bg-[url('/wires-7997980.jpg')] bg-contain bg-center bg-no-repeat"
