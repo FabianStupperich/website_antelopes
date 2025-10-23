@@ -11,24 +11,24 @@ function App() {
     <div className="min-h-screen bg-white">
       <Navbar />
       <Hero />
-      <div className="bg-white py-8 px-6">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-12 items-center">
-          <div className="flex items-center justify-center gap-8 flex-wrap">
-            <div className="w-full max-w-xs aspect-[1.5/1] flex items-center justify-center">
-              <img src="/BMWE_Logo_mit_Fooerderzusatz_de.png" alt="BMWi Logo" className="w-full h-full object-contain" />
+      <div className="bg-gray-50 py-12 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center mb-8">
+            <div className="flex items-center justify-center p-4 bg-white rounded-lg shadow-sm">
+              <img src="/KIVi_Antelopes_Logo.svg" alt="KIVi Antelopes Logo" className="w-full h-20 object-contain" />
             </div>
-            <div className="w-32 h-32 flex items-center justify-center">
-              <img src="/Hochschule_Düsseldorf_logo.svg" alt="Hochschule Düsseldorf Logo" className="w-full h-full object-contain" />
+            <div className="flex items-center justify-center p-4 bg-white rounded-lg shadow-sm">
+              <img src="/Hochschule_Düsseldorf_logo.svg" alt="Hochschule Düsseldorf Logo" className="w-full h-20 object-contain" />
             </div>
-            <div className="w-32 h-32 flex items-center justify-center">
-              <img src="/Antelopes_Logo_Dunkelgrau.svg" alt="Antelopes Logo" className="w-full h-full object-contain" />
+            <div className="flex items-center justify-center p-4 bg-white rounded-lg shadow-sm">
+              <img src="/Antelopes_Logo_Dunkelgrau.svg" alt="Antelopes Logo" className="w-full h-20 object-contain" />
             </div>
-            <div className="w-32 h-32 flex items-center justify-center bg-gray-800 rounded-lg p-4">
-              <img src="/volatile_white.svg" alt="Volatile Logo" className="w-full h-full object-contain" />
+            <div className="flex items-center justify-center p-4 bg-gray-900 rounded-lg shadow-sm">
+              <img src="/volatile_white.svg" alt="Volatile Logo" className="w-full h-20 object-contain" />
             </div>
           </div>
 
-          <div className="text-black space-y-6">
+          <div className="text-center text-gray-700 space-y-4 max-w-3xl mx-auto">
             <div>
               <h3 className="text-sm font-semibold mb-2">Förderprogramm:</h3>
               <p className="text-sm leading-relaxed">
