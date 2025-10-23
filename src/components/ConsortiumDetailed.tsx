@@ -52,7 +52,7 @@ export default function ConsortiumDetailed() {
         },
         {
           title: 'Projektrolle',
-          content: 'Im Zuge des Forschungsvorhaben VAELUES unterstützt der Projektpartner Volatile GmbH die Analyse der Versorgungssicherheitsindikatoren durch den Aufbau und die Bereitstellung eines Datenmanagementsystems sowie durch die Entwicklung einer graphischen Oberfläche zur Ergebnisvisualisierung und Auswertung. Neben der Koordination des operativen Datenmanagements wird die notwendige ökonomische Datenbasis zur Verfügung gestellt. Die graphische Visualisierung der Projektergebnisse soll in Form eines Online-Tools erfolgen.',
+          content: 'Die Volatile GmbH fungiert als Brücke zwischen Forschung und Praxis. Das Unternehmen verantwortet den praxisorientierten Aufbau der Daten- und Plattforminfrastrukturen, stellt die benötigten Rechenressourcen bereit und entwickelt das webbasierte Anwendungstool. Als universitäres Spin-off arbeitet Volatile daran, dass die entwickelten Methoden in marktfähige Lösungen überführt werden können, wodurch ein nachhaltiger Transfer von der Theorie in die Praxis gewährleistet wird.',
         }
       ]
     }
