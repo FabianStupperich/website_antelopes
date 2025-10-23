@@ -29,7 +29,7 @@ function App() {
           </div>
 
           <div className="text-gray-700" style={{ fontSize: '0.8vw', lineHeight: '1' }}>
-            <div style={{ marginBottom: '1.5vh' }}>
+            <div style={{ marginBottom: '2.5vh' }}>
               <h3 className="font-semibold" style={{ marginBottom: '0.5vh' }}>Förderprogramm:</h3>
               <p>
                 8. Energieforschungsprogramms im Förderschwerpunkt Energiesystemanalyse, sektorübergreifende Systemmodellierung und -planung
