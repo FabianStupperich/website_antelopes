@@ -44,7 +44,7 @@ export default function Publications() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-pink-600 hover:text-pink-700 font-medium transition-colors"
                   >
-                    <span>View Document</span>
+                    <span>Zur Veröffentlichung</span>
                     <ExternalLink className="w-4 h-4" />
                   </a>
                 </div>
