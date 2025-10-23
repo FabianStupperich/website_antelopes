@@ -6,6 +6,7 @@ import Impressum from './components/Impressum.tsx';
 import Datenschutz from './components/Datenschutz.tsx';
 import NewsPage from './components/NewsPage.tsx';
 import Publications from './components/Publications.tsx';
+import KonsortiumPage from './components/KonsortiumPage.tsx';
 import './index.css';
 
 createRoot(document.getElementById('root')!).render(
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/datenschutz" element={<Datenschutz />} />
         <Route path="/news" element={<NewsPage />} />
         <Route path="/publikationen" element={<Publications />} />
+        <Route path="/konsortium" element={<KonsortiumPage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

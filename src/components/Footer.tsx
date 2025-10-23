@@ -51,9 +51,9 @@ export default function Footer() {
                 </button>
               </li>
               <li>
-                <button onClick={() => handleSectionClick('consortium')} className="text-white hover:text-white transition-colors text-left">
+                <a href="/konsortium" className="text-white hover:text-white transition-colors">
                   Konsortium
-                </button>
+                </a>
               </li>
             </ul>
           </div>
