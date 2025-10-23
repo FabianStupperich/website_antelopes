@@ -26,7 +26,7 @@ export default function Footer() {
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 sm:gap-12 md:gap-20 mb-6">
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <img src="/VaeluesLogoWeiss.svg" alt="VAELUES Logo" className="h-12 sm:h-14 md:h-16" />
+              <img src="/Antelopes_Logo_Weiss.svg" alt="VAELUES Logo" className="h-12 sm:h-14 md:h-16" />
             </div>
             <p className="text-white text-xs">
               © 2025
