@@ -68,6 +68,12 @@ export default function Navbar() {
             >
               News
             </button>
+            <button
+              onClick={() => navigate('/publikationen')}
+              className="text-white hover:text-white transition-colors text-sm"
+            >
+              Publikationen
+            </button>
           </div> 
 
           <div className="hidden lg:flex items-center space-x-3">
@@ -106,6 +112,12 @@ export default function Navbar() {
               className="block text-gray-300 hover:text-white transition-colors"
             >
               News
+            </button>
+            <button
+              onClick={() => { navigate('/publikationen'); setIsMenuOpen(false); }}
+              className="block text-gray-300 hover:text-white transition-colors"
+            >
+              Publikationen
             </button>
             <button
               onClick={() => handleSectionClick('contact')}

@@ -55,6 +55,11 @@ export default function Footer() {
                   Konsortium
                 </a>
               </li>
+              <li>
+                <a href="/publikationen" className="text-white hover:text-white transition-colors">
+                  Publikationen
+                </a>
+              </li>
             </ul>
           </div>
 
