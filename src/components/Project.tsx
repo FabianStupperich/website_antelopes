@@ -23,7 +23,7 @@ export default function Project() {
     },
     {
       title: 'Bedeutung für die Energiewende',
-      content: 'Die Projektergebnisse unterstützen politische Entscheidungsträger und Unternehmen dabei, fundierte Entscheidungen über Investitionen in die Versorgungssicherheit zu treffen. Durch die transparente Darstellung von Kosten und Nutzen verschiedener Versorgungssicherheitsniveaus trägt VAELUES zur gesellschaftlichen Akzeptanz der Energiewende bei und hilft, knappe Ressourcen optimal einzusetzen.',
+      content: 'Die Projektergebnisse ermöglichen eine deutlich robustere Planung des zukünftigen Energiesystems. Durch die drastische Beschleunigung der Modellrechnungen können erstmals umfassende Unsicherheitsanalysen und Sensitivitätsstudien durchgeführt werden, die für eine verlässliche Bewertung der Versorgungssicherheit in einem von erneuerbaren Energien geprägten System unerlässlich sind. Dies unterstützt fundierte Entscheidungen zum Ausbau von Kraftwerkskapazitäten, Speichern und Übertragungsnetzen. Gleichzeitig werden Black-Swan-Ereignisse und Klimawandeleffekte besser analysierbar, was die Resilienz des Stromversorgungssystems stärkt und die Energiewende beschleunigt.',
       image: '/housing-4459403.jpg',
       imagePosition: 'left'
     }
