@@ -83,47 +83,51 @@ export default function ConsortiumDetailed() {
               }`}
               style={{ transitionDelay: `${index * 150}ms` }}
             >
-              <div className="grid md:grid-cols-12 gap-4 sm:gap-6 items-start p-4 sm:p-6">
-                <div className="md:col-span-3 flex flex-col gap-2">
-                  <img
-                    src={partner.logo}
-                    alt="Partner Logo"
-                    className={`${partner.id <= 2 ? 'h-10 sm:h-12 md:h-16' : 'h-8 sm:h-10 md:h-12'} object-contain ${partner.id === 4 ? 'invert' : ''}`}
-                  />
-                  {partner.university && (
-                    <div className="text-xs text-gray-600 font-semibold">
-                      {partner.university}
+              <div className="p-4 sm:p-6">
+                <div className="flex flex-col lg:grid lg:grid-cols-12 gap-4 lg:gap-6">
+                  <div className="lg:col-span-3 flex flex-row lg:flex-col gap-3 lg:gap-2 items-center lg:items-start">
+                    <img
+                      src={partner.logo}
+                      alt="Partner Logo"
+                      className={`${partner.id <= 2 ? 'h-10 sm:h-12 lg:h-16' : 'h-8 sm:h-10 lg:h-12'} object-contain ${partner.id === 4 ? 'invert' : ''}`}
+                    />
+                    <div className="flex-1 lg:flex-none">
+                      {partner.university && (
+                        <div className="text-xs text-gray-600 font-semibold">
+                          {partner.university}
+                        </div>
+                      )}
+                      {partner.subtitle && (
+                        <div className="text-xs text-gray-500">
+                          {partner.subtitle}
+                        </div>
+                      )}
                     </div>
-                  )}
-                  {partner.subtitle && (
-                    <div className="text-xs text-gray-500">
-                      {partner.subtitle}
-                    </div>
-                  )}
-                </div>
+                  </div>
 
-                <div className="md:col-span-2 flex items-start">
-                  <span className="text-gray-400 text-sm font-medium">
-                    {partner.sections[0].title}
-                  </span>
-                </div>
+                  <div className="lg:col-span-2 flex items-start">
+                    <span className="text-gray-400 text-sm font-medium">
+                      {partner.sections[0].title}
+                    </span>
+                  </div>
 
-                <div className="md:col-span-6">
-                  <p className="text-gray-700 text-sm leading-relaxed">
-                    {partner.sections[0].content}
-                  </p>
-                </div>
+                  <div className="lg:col-span-6">
+                    <p className="text-gray-700 text-sm leading-relaxed">
+                      {partner.sections[0].content}
+                    </p>
+                  </div>
 
-                <div className="md:col-span-1 flex justify-end items-start">
-                  <button
-                    onClick={() => setExpandedId(expandedId === partner.id ? null : partner.id)}
-                    className={`w-8 h-8 sm:w-10 sm:h-10 text-white rounded-full flex items-center justify-center transition-all hover:scale-110 ${
-                      expandedId === partner.id ? 'rotate-180' : ''
-                    }`}
-                    style={{ backgroundColor: '#B34A22' }}
-                  >
-                    <ChevronDown className="w-4 h-4 sm:w-5 sm:h-5" />
-                  </button>
+                  <div className="lg:col-span-1 flex justify-end items-start mt-2 lg:mt-0">
+                    <button
+                      onClick={() => setExpandedId(expandedId === partner.id ? null : partner.id)}
+                      className={`w-10 h-10 text-white rounded-full flex items-center justify-center transition-all hover:scale-110 ${
+                        expandedId === partner.id ? 'rotate-180' : ''
+                      }`}
+                      style={{ backgroundColor: '#B34A22' }}
+                    >
+                      <ChevronDown className="w-5 h-5" />
+                    </button>
+                  </div>
                 </div>
               </div>
 

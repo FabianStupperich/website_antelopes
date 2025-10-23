@@ -7,12 +7,12 @@ export default function Datenschutz() {
       <Navbar />
 
       <div className="pt-24 pb-16">
-        <div className="max-w-4xl mx-auto px-6">
-          <h1 className="text-4xl font-bold mb-8">Datenschutzerklärung</h1>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8">Datenschutzerklärung</h1>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">1. Datenschutz auf einen Blick</h2>
-            <h3 className="text-xl font-semibold mb-2">Allgemeine Hinweise</h3>
+          <section className="mb-6 sm:mb-8">
+            <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">1. Datenschutz auf einen Blick</h2>
+            <h3 className="text-lg sm:text-xl font-semibold mb-2">Allgemeine Hinweise</h3>
             <p className="mb-4">
               Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten
               passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie
@@ -21,8 +21,8 @@ export default function Datenschutz() {
             </p>
           </section>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">2. Verantwortliche Stelle</h2>
+          <section className="mb-6 sm:mb-8">
+            <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">2. Verantwortliche Stelle</h2>
             <p className="mb-2">Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p>
             <p className="mb-2"><strong>RWTH Aachen University</strong></p>
             <p className="mb-2">Templergraben 55</p>
@@ -36,14 +36,14 @@ export default function Datenschutz() {
             </p>
           </section>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">3. Datenerfassung auf dieser Website</h2>
-            <h3 className="text-xl font-semibold mb-2">Cookies</h3>
+          <section className="mb-6 sm:mb-8">
+            <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">3. Datenerfassung auf dieser Website</h2>
+            <h3 className="text-lg sm:text-xl font-semibold mb-2">Cookies</h3>
             <p className="mb-4">
               Diese Website verwendet keine Cookies.
             </p>
 
-            <h3 className="text-xl font-semibold mb-2">Server-Log-Dateien</h3>
+            <h3 className="text-lg sm:text-xl font-semibold mb-2">Server-Log-Dateien</h3>
             <p className="mb-4">
               Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-Dateien,
               die Ihr Browser automatisch an uns übermittelt. Dies sind:
@@ -64,8 +64,8 @@ export default function Datenschutz() {
             </p>
           </section>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">4. Ihre Rechte</h2>
+          <section className="mb-6 sm:mb-8">
+            <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">4. Ihre Rechte</h2>
             <p className="mb-4">
               Sie haben jederzeit das Recht unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer
               gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder
@@ -75,8 +75,8 @@ export default function Datenschutz() {
             </p>
           </section>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">5. Kontaktformular</h2>
+          <section className="mb-6 sm:mb-8">
+            <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">5. Kontaktformular</h2>
             <p className="mb-4">
               Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular
               inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von
