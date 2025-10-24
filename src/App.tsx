@@ -11,7 +11,7 @@ function App() {
     <div className="min-h-screen bg-white">
       <Navbar />
       <Hero />
-      <div className="bg-white py-2 hidden md:block" style={{ paddingLeft: '4vw', paddingRight: '4vw' }}>
+      <div className="bg-white py-2.5 hidden md:block" style={{ paddingLeft: '4vw', paddingRight: '4vw' }}>
         <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] items-center" style={{ gap: '4vw' }}>
           <div className="flex items-center justify-start flex-wrap" style={{ gap: '3vw' }}>
             <div className="flex items-center justify-center">
