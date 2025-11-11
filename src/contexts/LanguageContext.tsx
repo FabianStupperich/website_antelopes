@@ -60,7 +60,13 @@ const translations = {
     'publications.authors': 'Autoren',
     'publications.date': 'Datum',
     'publications.link': 'Link',
-    'publications.link.text': 'Zur Veröffentlichung'
+    'publications.link.text': 'Zur Veröffentlichung',
+    'publications.antelopes.1.title': 'Künstliche Intelligenz bei der Untersuchung der Versorgungssicherheit mit Elektrizität: Angewandte Metamodellierung für die robuste Optimierung der Resilienz und Adäquanz sektorengekoppelter hochkomplexer Energiesysteme (KIVi Antelopes)',
+    'publications.antelopes.1.authors': 'Lehrstuhl für Energiesystemökonomik (FCN-ESE) - RWTH Aachen University',
+    'publications.antelopes.1.date': ' September 2025',
+    'publications.kivi01.1.title': 'KIVi 01 - Künstliche Intelligenz für die Versorgungssicherheit',
+    'publications.kivi01.1.authors': 'Forschungsteam KIVi 01',
+    'publications.kivi01.1.date': 'Dezember 2023'
   },
   en: {
     'nav.project': 'Project',
@@ -111,7 +117,13 @@ const translations = {
     'publications.authors': 'Authors',
     'publications.date': 'Date',
     'publications.link': 'Link',
-    'publications.link.text': 'To Publication'
+    'publications.link.text': 'To Publication',
+    'publications.antelopes.1.title': 'Artificial Intelligence in Investigating Electricity Security of Supply: Applied Metamodeling for Robust Optimization of Resilience and Adequacy of Sector-Coupled Highly Complex Energy Systems (KIVi Antelopes)',
+    'publications.antelopes.1.authors': 'Chair of Energy Systems Economics (FCN-ESE) - RWTH Aachen University',
+    'publications.antelopes.1.date': 'September 2025',
+    'publications.kivi01.1.title': 'KIVi 01 - Artificial Intelligence for Security of Supply',
+    'publications.kivi01.1.authors': 'KIVi 01 Research Team',
+    'publications.kivi01.1.date': 'December 2023'
   }
 };
 

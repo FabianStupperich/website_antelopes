@@ -9,9 +9,9 @@ export default function Publications() {
     {
       id: 1,
       number: 1,
-      title: 'Künstliche Intelligenz bei der Untersuchung der Versorgungssicherheit mit Elektrizität: Angewandte Metamodellierung für die robuste Optimierung der Resilienz und Adäquanz sektorengekoppelter hochkomplexer Energiesysteme (KIVi Antelopes)',
-      authors: 'Lehrstuhl für Energiesystemökonomik (FCN-ESE) - RWTH Aachen University',
-      date: ' September 2025',
+      title: t('publications.antelopes.1.title'),
+      authors: t('publications.antelopes.1.authors'),
+      date: t('publications.antelopes.1.date'),
       link: 'https://www.fcn.eonerc.rwth-aachen.de/cms/e-on-erc-fcn/forschung/forschungsprojekte/-neu-forschungsprojekte-fcn-ese/~bqeiri/kivi-antelopes/'
     }
   ];
@@ -20,9 +20,9 @@ export default function Publications() {
     {
       id: 1,
       number: 1,
-      title: 'KIVi 01 - Künstliche Intelligenz für die Versorgungssicherheit',
-      authors: 'Forschungsteam KIVi 01',
-      date: 'Dezember 2023',
+      title: t('publications.kivi01.1.title'),
+      authors: t('publications.kivi01.1.authors'),
+      date: t('publications.kivi01.1.date'),
       link: '#'
     }
   ];
@@ -97,7 +97,7 @@ export default function Publications() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 text-pink-600 hover:text-pink-700 font-semibold transition-colors"
                     >
-                      <span>Zur Veröffentlichung</span>
+                      <span>{t('publications.link.text')}</span>
                       <ExternalLink className="w-4 h-4" />
                     </a>
                   </div>
@@ -169,7 +169,7 @@ export default function Publications() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 text-pink-600 hover:text-pink-700 font-semibold transition-colors"
                     >
-                      <span>Zur Veröffentlichung</span>
+                      <span>{t('publications.link.text')}</span>
                       <ExternalLink className="w-4 h-4" />
                     </a>
                   </div>
