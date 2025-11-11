@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, ReactNode } from 'react';
+import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 
 type Language = 'de' | 'en';
 
@@ -9,8 +9,25 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
+const LANGUAGE_STORAGE_KEY = 'kivi-language-preference';
+
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<Language>('de');
+  const [language, setLanguageState] = useState<Language>(() => {
+    const stored = localStorage.getItem(LANGUAGE_STORAGE_KEY);
+    return (stored === 'de' || stored === 'en') ? stored : 'de';
+  });
+
+  const setLanguage = (lang: Language) => {
+    setLanguageState(lang);
+    localStorage.setItem(LANGUAGE_STORAGE_KEY, lang);
+  };
+
+  useEffect(() => {
+    const stored = localStorage.getItem(LANGUAGE_STORAGE_KEY);
+    if (stored === 'de' || stored === 'en') {
+      setLanguageState(stored);
+    }
+  }, []);
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage }}>
