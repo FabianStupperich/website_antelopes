@@ -67,12 +67,6 @@ export default function Navbar() {
               Konsortium
             </button>
             <button
-              onClick={() => navigate('/news')}
-              className={`transition-colors text-sm ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-black hover:text-gray-700'}`}
-            >
-              News
-            </button>
-            <button
               onClick={() => navigate('/publikationen')}
               className={`transition-colors text-sm ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-black hover:text-gray-700'}`}
             >
