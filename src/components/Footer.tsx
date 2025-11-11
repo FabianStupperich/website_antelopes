@@ -1,12 +1,8 @@
 import { useNavigate, useLocation } from 'react-router-dom';
-import { useLanguage } from '../contexts/LanguageContext';
-import { translations } from '../translations/translations';
 
 export default function Footer() {
   const navigate = useNavigate();
   const location = useLocation();
-  const { language } = useLanguage();
-  const t = translations[language];
 
   const handleSectionClick = (sectionId: string) => {
     if (location.pathname !== '/') {
@@ -41,27 +37,27 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="/" className="text-white hover:text-white transition-colors">
-                  {t.nav.home}
+                  Home
                 </a>
               </li>
               <li>
                 <a href="/news" className="text-white hover:text-white transition-colors">
-                  {t.nav.news}
+                  News
                 </a>
               </li>
               <li>
                 <button onClick={() => handleSectionClick('project')} className="text-white hover:text-white transition-colors text-left">
-                  {t.nav.project}
+                  Das Projekt
                 </button>
               </li>
               <li>
                 <a href="/konsortium" className="text-white hover:text-white transition-colors">
-                  {t.nav.consortium}
+                  Konsortium
                 </a>
               </li>
               <li>
                 <a href="/publikationen" className="text-white hover:text-white transition-colors">
-                  {t.nav.publications}
+                  Publikationen
                 </a>
               </li>
             </ul>
@@ -71,17 +67,17 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="/impressum" className="text-white hover:text-white transition-colors">
-                  {t.footer.imprint}
+                  Impressum
                 </a>
               </li>
               <li>
                 <a href="/datenschutz" className="text-white hover:text-white transition-colors">
-                  {t.footer.privacy}
+                  Datenschutz
                 </a>
               </li>
               <li>
                 <button onClick={() => handleSectionClick('contact')} className="text-white hover:text-white transition-colors text-left">
-                  {t.nav.contact}
+                  Kontakt
                 </button>
               </li>
             </ul>

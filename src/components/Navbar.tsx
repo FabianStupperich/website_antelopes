@@ -1,16 +1,12 @@
 import { Menu, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { useLanguage } from '../contexts/LanguageContext';
-import { translations } from '../translations/translations';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
-  const { language, setLanguage } = useLanguage();
-  const t = translations[language];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -62,44 +58,29 @@ export default function Navbar() {
               onClick={() => handleSectionClick('project')}
               className={`transition-colors text-sm ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-black hover:text-gray-700'}`}
             >
-              {t.nav.project}
+              Projekt
             </button>
             <button
               onClick={() => navigate('/konsortium')}
               className={`transition-colors text-sm ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-black hover:text-gray-700'}`}
             >
-              {t.nav.consortium}
+              Konsortium
             </button>
             <button
               onClick={() => navigate('/publikationen')}
               className={`transition-colors text-sm ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-black hover:text-gray-700'}`}
             >
-              {t.nav.publications}
+              Publikationen
             </button>
           </div>
 
           <div className="hidden lg:flex items-center space-x-3">
-            <div className="flex items-center space-x-2">
-              <button
-                onClick={() => setLanguage('de')}
-                className={`text-sm transition-colors ${language === 'de' ? 'font-bold' : 'font-normal'} ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-black hover:text-gray-700'}`}
-              >
-                DE
-              </button>
-              <span className={`${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white' : 'text-black'}`}>|</span>
-              <button
-                onClick={() => setLanguage('en')}
-                className={`text-sm transition-colors ${language === 'en' ? 'font-bold' : 'font-normal'} ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-black hover:text-gray-700'}`}
-              >
-                EN
-              </button>
-            </div>
             <button
               onClick={() => handleSectionClick('contact')}
               className="px-5 py-2 rounded-full transition-colors text-sm font-semibold text-white"
               style={{ backgroundColor: '#B34A22' }}
             >
-              {t.nav.contact}
+              Kontakt
             </button>
           </div>
 
@@ -117,47 +98,32 @@ export default function Navbar() {
               onClick={() => handleSectionClick('project')}
               className="block text-gray-300 hover:text-white transition-colors"
             >
-              {t.nav.project}
+              Projekt
             </button>
             <button
               onClick={() => { navigate('/konsortium'); setIsMenuOpen(false); }}
               className="block text-gray-300 hover:text-white transition-colors"
             >
-              {t.nav.consortium}
+              Konsortium
             </button>
             <button
               onClick={() => { navigate('/news'); setIsMenuOpen(false); }}
               className="block text-gray-300 hover:text-white transition-colors"
             >
-              {t.nav.news}
+              News
             </button>
             <button
               onClick={() => { navigate('/publikationen'); setIsMenuOpen(false); }}
               className="block text-gray-300 hover:text-white transition-colors"
             >
-              {t.nav.publications}
+              Publikationen
             </button>
-            <div className="flex items-center space-x-2 pt-2">
-              <button
-                onClick={() => setLanguage('de')}
-                className={`text-sm transition-colors ${language === 'de' ? 'font-bold text-white' : 'text-gray-300 hover:text-white'}`}
-              >
-                DE
-              </button>
-              <span className="text-white">|</span>
-              <button
-                onClick={() => setLanguage('en')}
-                className={`text-sm transition-colors ${language === 'en' ? 'font-bold text-white' : 'text-gray-300 hover:text-white'}`}
-              >
-                EN
-              </button>
-            </div>
             <button
               onClick={() => handleSectionClick('contact')}
               className="block text-white px-6 py-2 rounded-full transition-colors text-center font-semibold"
               style={{ backgroundColor: '#B34A22' }}
             >
-              {t.nav.contact}
+              Kontakt
             </button>
           </div>
         )}

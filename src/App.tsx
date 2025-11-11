@@ -5,13 +5,8 @@ import Project from './components/Project';
 import Consortium from './components/Consortium';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import { useLanguage } from './contexts/LanguageContext';
-import { translations } from './translations/translations';
 
 function App() {
-  const { language } = useLanguage();
-  const t = translations[language];
-
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -25,7 +20,7 @@ function App() {
               </a>
             </div>
             <div className="flex items-center justify-center">
-              <a href="https://zies.hs-duesseldorf.de/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.hs-duesseldorf.de/" target="_blank" rel="noopener noreferrer">
                 <img src="/Hochschule_Duesseldorf_logo.svg" alt="Hochschule Düsseldorf Logo" style={{ height: '6vh' }} className="w-auto object-contain hover:opacity-80 transition-opacity" />
               </a>
             </div>
@@ -43,14 +38,14 @@ function App() {
 
           <div className="text-gray-700" style={{ fontSize: '0.8vw', lineHeight: '1' }}>
             <div style={{ marginBottom: '1.5vh' }}>
-              <h3 className="font-semibold" style={{ marginBottom: '0.5vh' }}>{t.footer.funding}</h3>
+              <h3 className="font-semibold" style={{ marginBottom: '0.5vh' }}>Förderprogramm:</h3>
               <p>
-                {t.footer.fundingText}
+                8. Energieforschungsprogramms im Förderschwerpunkt Energiesystemanalyse, sektorübergreifende Systemmodellierung und -planung
               </p>
             </div>
 
             <div>
-              <h3 className="font-semibold" style={{ marginBottom: '0.5vh' }}>{t.footer.fundingCode}</h3>
+              <h3 className="font-semibold" style={{ marginBottom: '0.5vh' }}>Förderkennzeichen:</h3>
               <p>03EI1101C</p>
             </div>
           </div>

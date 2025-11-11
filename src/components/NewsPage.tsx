@@ -1,13 +1,8 @@
 import Navbar from './Navbar';
 import Footer from './Footer';
 import { useEffect } from 'react';
-import { useLanguage } from '../contexts/LanguageContext';
-import { translations } from '../translations/translations';
 
 export default function NewsPage() {
-  const { language } = useLanguage();
-  const t = translations[language];
-
   useEffect(() => {
     const script = document.createElement('script');
     script.src = 'https://platform.linkedin.com/in.js';
@@ -36,7 +31,7 @@ export default function NewsPage() {
 
       <div className="flex-grow pt-24 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <h1 className="text-3xl sm:text-4xl font-black text-gray-900 mb-8 sm:mb-10">{t.news.title}</h1>
+          <h1 className="text-3xl sm:text-4xl font-black text-gray-900 mb-8 sm:mb-10">Neuigkeiten</h1>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {newsItems.map((item) => (

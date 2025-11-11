@@ -1,13 +1,8 @@
 import Navbar from './Navbar';
 import Footer from './Footer';
 import { ExternalLink } from 'lucide-react';
-import { useLanguage } from '../contexts/LanguageContext';
-import { translations } from '../translations/translations';
 
 export default function Publications() {
-  const { language } = useLanguage();
-  const t = translations[language];
-
   const publicationsKiViAntelopes = [
     {
       id: 1,
@@ -36,17 +31,17 @@ export default function Publications() {
 
       <div className="flex-grow pt-24 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-gray-900 mb-8 sm:mb-12 lg:mb-16">{t.publications.title}</h1>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-gray-900 mb-8 sm:mb-12 lg:mb-16">Publikationen</h1>
 
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">KIVi Antelopes</h2>
 
           <div className="hidden lg:block bg-white rounded-lg border border-gray-200 overflow-hidden mb-12">
             <div className="grid grid-cols-12 gap-6 p-6 bg-gray-50 border-b border-gray-200 font-semibold text-gray-600 text-sm">
-              <div className="col-span-1">{language === 'de' ? 'Nr.' : 'No.'}</div>
-              <div className="col-span-4">{language === 'de' ? 'Titel' : 'Title'}</div>
-              <div className="col-span-3">{language === 'de' ? 'Autoren' : 'Authors'}</div>
-              <div className="col-span-2">{language === 'de' ? 'Datum' : 'Date'}</div>
-              <div className="col-span-2">{language === 'de' ? 'Link' : 'Link'}</div>
+              <div className="col-span-1">Nr.</div>
+              <div className="col-span-4">Titel</div>
+              <div className="col-span-3">Autoren</div>
+              <div className="col-span-2">Datum</div>
+              <div className="col-span-2">Link</div>
             </div>
 
             {publicationsKiViAntelopes.map((item) => (
@@ -62,7 +57,7 @@ export default function Publications() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-pink-600 hover:text-pink-700 font-medium transition-colors"
                   >
-                    <span>{language === 'de' ? 'Zur Veröffentlichung' : 'To Publication'}</span>
+                    <span>Zur Veröffentlichung</span>
                     <ExternalLink className="w-4 h-4" />
                   </a>
                 </div>
@@ -84,12 +79,12 @@ export default function Publications() {
 
                 <div className="space-y-3 text-sm">
                   <div>
-                    <div className="text-gray-500 font-medium mb-1">{language === 'de' ? 'Autoren' : 'Authors'}</div>
+                    <div className="text-gray-500 font-medium mb-1">Autoren</div>
                     <div className="text-gray-900">{item.authors}</div>
                   </div>
 
                   <div>
-                    <div className="text-gray-500 font-medium mb-1">{language === 'de' ? 'Datum' : 'Date'}</div>
+                    <div className="text-gray-500 font-medium mb-1">Datum</div>
                     <div className="text-gray-900 font-medium">{item.date}</div>
                   </div>
 
@@ -100,7 +95,7 @@ export default function Publications() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 text-pink-600 hover:text-pink-700 font-semibold transition-colors"
                     >
-                      <span>{language === 'de' ? 'Zur Veröffentlichung' : 'To Publication'}</span>
+                      <span>Zur Veröffentlichung</span>
                       <ExternalLink className="w-4 h-4" />
                     </a>
                   </div>
@@ -110,17 +105,15 @@ export default function Publications() {
           </div>
 
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">KIVi 01</h2>
-          <p className="text-gray-600 mb-6">
-            {language === 'de' ? 'Publikationen aus dem Vorgängerprojekt' : 'Publications from the previous project'}
-          </p>
+          <p className="text-gray-600 mb-6">Publikationen aus dem Vorgängerprojekt</p>
 
           <div className="hidden lg:block bg-white rounded-lg border border-gray-200 overflow-hidden">
             <div className="grid grid-cols-12 gap-6 p-6 bg-gray-50 border-b border-gray-200 font-semibold text-gray-600 text-sm">
-              <div className="col-span-1">{language === 'de' ? 'Nr.' : 'No.'}</div>
-              <div className="col-span-4">{language === 'de' ? 'Titel' : 'Title'}</div>
-              <div className="col-span-3">{language === 'de' ? 'Autoren' : 'Authors'}</div>
-              <div className="col-span-2">{language === 'de' ? 'Datum' : 'Date'}</div>
-              <div className="col-span-2">{language === 'de' ? 'Link' : 'Link'}</div>
+              <div className="col-span-1">Nr.</div>
+              <div className="col-span-4">Titel</div>
+              <div className="col-span-3">Autoren</div>
+              <div className="col-span-2">Datum</div>
+              <div className="col-span-2">Link</div>
             </div>
 
             {publicationsKiVi01.map((item) => (
@@ -136,7 +129,7 @@ export default function Publications() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-pink-600 hover:text-pink-700 font-medium transition-colors"
                   >
-                    <span>{language === 'de' ? 'Zur Veröffentlichung' : 'To Publication'}</span>
+                    <span>Zur Veröffentlichung</span>
                     <ExternalLink className="w-4 h-4" />
                   </a>
                 </div>
@@ -158,12 +151,12 @@ export default function Publications() {
 
                 <div className="space-y-3 text-sm">
                   <div>
-                    <div className="text-gray-500 font-medium mb-1">{language === 'de' ? 'Autoren' : 'Authors'}</div>
+                    <div className="text-gray-500 font-medium mb-1">Autoren</div>
                     <div className="text-gray-900">{item.authors}</div>
                   </div>
 
                   <div>
-                    <div className="text-gray-500 font-medium mb-1">{language === 'de' ? 'Datum' : 'Date'}</div>
+                    <div className="text-gray-500 font-medium mb-1">Datum</div>
                     <div className="text-gray-900 font-medium">{item.date}</div>
                   </div>
 
@@ -174,7 +167,7 @@ export default function Publications() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 text-pink-600 hover:text-pink-700 font-semibold transition-colors"
                     >
-                      <span>{language === 'de' ? 'Zur Veröffentlichung' : 'To Publication'}</span>
+                      <span>Zur Veröffentlichung</span>
                       <ExternalLink className="w-4 h-4" />
                     </a>
                   </div>
