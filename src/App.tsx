@@ -20,7 +20,7 @@ function App() {
               </a>
             </div>
             <div className="flex items-center justify-center">
-              <a href="https://www.hs-duesseldorf.de/" target="_blank" rel="noopener noreferrer">
+              <a href="https://zies.hs-duesseldorf.de/" target="_blank" rel="noopener noreferrer">
                 <img src="/Hochschule_Duesseldorf_logo.svg" alt="Hochschule Düsseldorf Logo" style={{ height: '6vh' }} className="w-auto object-contain hover:opacity-80 transition-opacity" />
               </a>
             </div>
