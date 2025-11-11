@@ -1,11 +1,13 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export default function ConsortiumDetailed() {
   const { elementRef: titleRef, isVisible: titleVisible } = useScrollAnimation(0.2);
   const { elementRef: cardsRef, isVisible: cardsVisible } = useScrollAnimation(0.1);
   const [expandedId, setExpandedId] = useState<number | null>(null);
+  const { t } = useLanguage();
 
   const partners = [
     {
@@ -13,51 +15,21 @@ export default function ConsortiumDetailed() {
       logo: '/rwth_eerc_rgb.png',
       website: 'https://www.eonerc.rwth-aachen.de/',
       university: '',
-      subtitle: '',
-      sections: [
-        {
-          title: 'Kurzprofil',
-          content: 'Der Lehrstuhl für Energiesystemökonomik (FCN-ESE, Leitung: Prof. Dr.-Ing. Aaron Praktiknjo) der RWTH Aachen University beschäftigt sich mit energiesystemischen Fragestellungen an der Schnittstelle zwischen Energieökonomik, Energiepolitik und Energietechnik. Die Wissenschaftler:innen des Lehrstuhls arbeiten an Fragestellungen zu den Themenkomplexen Wirtschaftlichkeit, Versorgungssicherheit und Umweltverträglichkeit. Als Werkzeuge zur Untersuchung solcher Fragestellungen bedienen sie sich aus einem breiten Portfolio an Methoden und Modellen der Energiesystemanalyse (Simulations- und Optimierungsmodelle, Input-Output-Modelle, stochastische Prognosemodelle, KI-basierte Methoden, Lebenszyklusanalysen, u.a.). '
-        },
-        {
-          title: 'Projektrolle',
-          content: 'Der Lehrstuhl für Energiesystemökonomik übernimmt als Verbundkoordinator die wissenschaftliche Projektleitung und fokussiert sich auf die komplexitätsgerechte Versorgungssicherheitsbewertung sektorengekoppelter Energiesysteme. Als universitäre Forschungseinrichtung mit Expertise in der Modellierung hochkomplexer Energiesysteme entwickelt sie probabilistische Modelle basierend auf der ERAA-Methodik und führt modellvergleichende Fallstudien durch. Die RWTH verantwortet zudem das Projektmanagement, die Koordination der Arbeiten sowie die Durchführung von Stakeholder-Interviews zur Anforderungserhebung.',
-        }
-      ]
+      subtitle: ''
     },
     {
       id: 2,
       logo: '/Hochschule_Duesseldorf_logo.svg',
       website: 'https://www.hs-duesseldorf.de/',
       university: '',
-      subtitle: '',
-      sections: [
-        {
-          title: 'Kurzprofil',
-          content: 'Das Forschungsinstitut Zentrum für Innovative Energiesysteme (ZIES, Leitung: Prof. Dr.-Ing. Mario Adam) an der Hochschule Düsseldorf beschäftigt sich seit 2016 verstärkt mit der Anwendung von KI-Methoden aus dem Bereich des maschinellen Lernens zur Optimierung von Energieversorgungsystemen. Der Fokus der Forschungs- und Entwicklungsarbeiten kann in die nachfolgenden Bereiche eingeteilt werden: Prognose von zeitlich aufgelösten Simulationseingangsgrößen (Time Series Forecasting), Reduzierung von Simulationsmodelllaufzeiten über Metamodellierung in Kombination mit Versuchsplanungsmethoden (Metamodeling & Design of Experiments), Optimierung der Struktur und Dimensionierung von Energieversorgungssystemen bei Planung bzw. Auslegung im Spannungsfeld von ökonomischen und ökologischen Zielgrößen (multikriterielle Optimierung) sowie die praxisnahe Entwicklung und Erprobung von intelligenten Optimierungs- und Regelungsverfahren im Online-Betrieb multivarianter Energiesysteme.'
-        },
-        {
-          title: 'Projektrolle',
-          content: 'Das Zentrum für Innovative Energiesysteme der HSD leitet die technische Entwicklung und Validierung der KI-basierten Metamodelle. Mit ihrer spezialisierten Expertise in maschinellem Lernen und Metamodellierung entwickelt die HSD maßgeschneiderte Lösungsansätze für die Approximation von ERAA-Modellen. Sie erprobt verschiedene methodische Ansätze zur teil- oder ganzheitlichen Approximation und integriert Design of Experiments sowie Algorithmen des aktiven Lernens in die Metamodellierung.',
-        }
-      ]
+      subtitle: ''
     },
     {
       id: 4,
       logo: '/volatile_white.svg',
       website: 'https://volatile.de/',
       university: '',
-      subtitle: '',
-      sections: [
-        {
-          title: 'Kurzprofil',
-          content: 'Die Volatile GmbH ist eine Ausgründung aus dem Lehrstuhl für Energiesystemökonomik an der RWTH Aachen University. Volatile entwickelt Software as a Service (SaaS)-Anwendungen für Energiedatenplattformen und Energiesystemanalysen und kombiniert dabei die Vorteile von Automatisierung und künstlicher Intelligenz mit State of the Art Methoden aus der energiesystemanalytischen Forschung. Mit dem volatile Data Hub wird Kunden aus den Bereichen Energiewirtschaft, energieintensive Industrie sowie Energieberatung eine Energiedatenplattform zu historischen und zukünftigen Entwicklungen im Energiesystem bereitgestellt. Mit den volatile On-Demand-Anwendungen wird ein niederschwelliger Zugang zu komplexen energiesystemanalytischen Werkzeugen angeboten. '
-        },
-        {
-          title: 'Projektrolle',
-          content: 'Die Volatile GmbH fungiert als Brücke zwischen Forschung und Praxis. Das Unternehmen verantwortet den praxisorientierten Aufbau der Daten- und Plattforminfrastrukturen, stellt die benötigten Rechenressourcen bereit und entwickelt das webbasierte Anwendungstool. Als universitäres Spin-off arbeitet Volatile daran, dass die entwickelten Methoden in marktfähige Lösungen überführt werden können, wodurch ein nachhaltiger Transfer von der Theorie in die Praxis gewährleistet wird.',
-        }
-      ]
+      subtitle: ''
     }
   ];
 
@@ -72,7 +44,7 @@ export default function ConsortiumDetailed() {
               : 'opacity-0 translate-y-8'
           }`}
         >
-          Konsortium
+          {t('consortium.title')}
         </h2>
 
         <div ref={cardsRef} className="space-y-4 sm:space-y-5">
@@ -112,13 +84,13 @@ export default function ConsortiumDetailed() {
 
                   <div className="lg:col-span-2 flex items-start">
                     <span className="text-gray-400 text-sm font-medium">
-                      {partner.sections[0].title}
+                      {t('consortium.profile')}
                     </span>
                   </div>
 
                   <div className="lg:col-span-6">
                     <p className="text-gray-700 text-sm leading-relaxed">
-                      {partner.sections[0].content}
+                      {t(`consortium.partner${partner.id === 4 ? 3 : partner.id}.profile`)}
                     </p>
                   </div>
 
@@ -139,28 +111,12 @@ export default function ConsortiumDetailed() {
               {expandedId === partner.id && (
                 <div className="border-t border-gray-200 bg-gray-50 animate-[fadeIn_0.3s_ease-out] p-4 sm:p-6">
                   <div className="space-y-6">
-                    {partner.sections.slice(1).map((section, idx) => (
-                      <div key={idx}>
-                        <h3 className="text-sm font-semibold text-gray-400 mb-2">{section.title}</h3>
-                        {section.content && (
-                          <p className="text-gray-700 text-sm leading-relaxed mb-3">
-                            {section.content}
-                          </p>
-                        )}
-                        {section.bullets && (
-                          <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm leading-relaxed">
-                            {section.bullets.map((bullet, bulletIdx) => (
-                              <li key={bulletIdx}>{bullet}</li>
-                            ))}
-                          </ul>
-                        )}
-                        {!section.content && !section.bullets && (
-                          <p className="text-gray-700 text-sm leading-relaxed">
-                            Inhalt folgt in Kürze...
-                          </p>
-                        )}
-                      </div>
-                    ))}
+                    <div>
+                      <h3 className="text-sm font-semibold text-gray-400 mb-2">{t('consortium.role')}</h3>
+                      <p className="text-gray-700 text-sm leading-relaxed mb-3">
+                        {t(`consortium.partner${partner.id === 4 ? 3 : partner.id}.role`)}
+                      </p>
+                    </div>
                   </div>
                 </div>
               )}
