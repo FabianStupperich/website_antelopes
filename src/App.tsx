@@ -15,7 +15,7 @@ function App() {
         <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] items-center" style={{ gap: '4vw' }}>
           <div className="flex items-center justify-start flex-wrap" style={{ gap: '3vw' }}>
             <div className="flex items-center justify-center">
-              <a href="https://www.eonerc.rwth-aachen.de/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.fcn.eonerc.rwth-aachen.de/cms/~dndh/E-ON-ERC-FCN/" target="_blank" rel="noopener noreferrer">
                 <img src="/rwth_eerc_rgb.png" alt="RWTH EERC Logo" style={{ height: '6vh' }} className="w-auto object-contain hover:opacity-80 transition-opacity" />
               </a>
             </div>
