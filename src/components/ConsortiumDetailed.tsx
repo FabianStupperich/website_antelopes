@@ -11,6 +11,7 @@ export default function ConsortiumDetailed() {
     {
       id: 1,
       logo: '/rwth_eerc_rgb.png',
+      website: 'https://www.eonerc.rwth-aachen.de/',
       university: '',
       subtitle: '',
       sections: [
@@ -27,6 +28,7 @@ export default function ConsortiumDetailed() {
     {
       id: 2,
       logo: '/Hochschule_Duesseldorf_logo.svg',
+      website: 'https://www.hs-duesseldorf.de/',
       university: '',
       subtitle: '',
       sections: [
@@ -43,6 +45,7 @@ export default function ConsortiumDetailed() {
     {
       id: 4,
       logo: '/volatile_white.svg',
+      website: 'https://volatile.de/',
       university: '',
       subtitle: '',
       sections: [
@@ -86,11 +89,13 @@ export default function ConsortiumDetailed() {
               <div className="p-4 sm:p-6">
                 <div className="flex flex-col lg:grid lg:grid-cols-12 gap-4 lg:gap-6">
                   <div className="lg:col-span-3 flex flex-row lg:flex-col gap-3 lg:gap-2 items-center lg:items-start">
-                    <img
-                      src={partner.logo}
-                      alt="Partner Logo"
-                      className={`${partner.id <= 2 ? 'h-10 sm:h-12 lg:h-16' : 'h-8 sm:h-10 lg:h-12'} object-contain ${partner.id === 4 ? 'invert' : ''}`}
-                    />
+                    <a href={partner.website} target="_blank" rel="noopener noreferrer">
+                      <img
+                        src={partner.logo}
+                        alt="Partner Logo"
+                        className={`${partner.id <= 2 ? 'h-10 sm:h-12 lg:h-16' : 'h-8 sm:h-10 lg:h-12'} object-contain ${partner.id === 4 ? 'invert' : ''} hover:opacity-80 transition-opacity`}
+                      />
+                    </a>
                     <div className="flex-1 lg:flex-none">
                       {partner.university && (
                         <div className="text-xs text-gray-600 font-semibold">
