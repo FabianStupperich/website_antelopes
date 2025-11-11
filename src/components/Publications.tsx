@@ -24,6 +24,46 @@ export default function Publications() {
       authors: t('publications.kivi01.1.authors'),
       date: t('publications.kivi01.1.date'),
       link: '#'
+    },
+    {
+      id: 2,
+      number: 2,
+      title: t('publications.kivi01.2.title'),
+      authors: t('publications.kivi01.2.authors'),
+      date: t('publications.kivi01.2.date'),
+      link: '#'
+    },
+    {
+      id: 3,
+      number: 3,
+      title: t('publications.kivi01.3.title'),
+      authors: t('publications.kivi01.3.authors'),
+      date: t('publications.kivi01.3.date'),
+      link: '#'
+    },
+    {
+      id: 4,
+      number: 4,
+      title: t('publications.kivi01.4.title'),
+      authors: t('publications.kivi01.4.authors'),
+      date: t('publications.kivi01.4.date'),
+      link: '#'
+    },
+    {
+      id: 5,
+      number: 5,
+      title: t('publications.kivi01.5.title'),
+      authors: t('publications.kivi01.5.authors'),
+      date: t('publications.kivi01.5.date'),
+      link: '#'
+    },
+    {
+      id: 6,
+      number: 6,
+      title: t('publications.kivi01.6.title'),
+      authors: t('publications.kivi01.6.authors'),
+      date: t('publications.kivi01.6.date'),
+      link: '#'
     }
   ];
 
