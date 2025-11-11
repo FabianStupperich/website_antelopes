@@ -30,7 +30,7 @@ function App() {
               </a>
             </div>
             <div className="flex items-center justify-center">
-              <a href="https://www.bmwk.de/" target="_blank" rel="noopener noreferrer">
+              <a target="_blank" rel="noopener noreferrer">
                 <img src="/BMWE_Logo_mit_Fooerderzusatz_de.png" alt="BMWK Logo" style={{ height: '12vh' }} className="w-auto object-contain hover:opacity-80 transition-opacity" />
               </a>
             </div>
