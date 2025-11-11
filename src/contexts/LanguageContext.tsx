@@ -119,7 +119,7 @@ const translations = {
     'publications.link': 'Link',
     'publications.link.text': 'To Publication',
     'publications.antelopes.1.title': 'Artificial intelligence in the investigation of electricity supply security: Applied metamodeling for the robust optimization of the resilience and adequacy of highly complex, sector-coupled energy systems (KIVi Antelopes)',
-    'publications.antelopes.1.authors': 'Chair of Energy Systems Economics (FCN-ESE) - RWTH Aachen University',
+    'publications.antelopes.1.authors': 'Chair for Energy Systems Economics (FCN-ESE) - RWTH Aachen University',
     'publications.antelopes.1.date': 'September 2025',
     'publications.kivi01.1.title': 'KIVi 01 - Artificial Intelligence for Security of Supply',
     'publications.kivi01.1.authors': 'KIVi 01 Research Team',
