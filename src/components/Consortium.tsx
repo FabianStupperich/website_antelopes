@@ -8,6 +8,7 @@ export default function Consortium() {
     {
       id: 1,
       logo: '/rwth_eerc_rgb.png',
+      website: 'https://www.eonerc.rwth-aachen.de/',
       university: '',
       subtitle: '',
       title: 'Kurzprofil',
@@ -16,6 +17,7 @@ export default function Consortium() {
     {
       id: 2,
       logo: '/Hochschule_Duesseldorf_logo.svg',
+      website: 'https://www.hs-duesseldorf.de/',
       university: '',
       subtitle: '',
       title: 'Kurzprofil',
@@ -24,6 +26,7 @@ export default function Consortium() {
     {
       id: 4,
       logo: '/volatile_white.svg',
+      website: 'https://volatile.de/',
       university: '',
       subtitle: '',
       title: 'Kurzprofil',
@@ -58,11 +61,13 @@ export default function Consortium() {
             >
               <div className="grid md:grid-cols-11 gap-4 sm:gap-6 items-start p-4 sm:p-6">
                 <div className="md:col-span-3 flex flex-col gap-2">
-                  <img
-                    src={partner.logo}
-                    alt="Partner Logo"
-                    className={`${partner.id <= 2 ? 'h-10 sm:h-12 md:h-16' : 'h-8 sm:h-10 md:h-12'} object-contain ${partner.id === 4 ? 'invert' : ''}`}
-                  />
+                  <a href={partner.website} target="_blank" rel="noopener noreferrer">
+                    <img
+                      src={partner.logo}
+                      alt="Partner Logo"
+                      className={`${partner.id <= 2 ? 'h-10 sm:h-12 md:h-16' : 'h-8 sm:h-10 md:h-12'} object-contain ${partner.id === 4 ? 'invert' : ''} hover:opacity-80 transition-opacity`}
+                    />
+                  </a>
                   {partner.university && (
                     <div className="text-xs text-gray-600 font-semibold">
                       {partner.university}
