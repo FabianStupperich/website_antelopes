@@ -1,4 +1,4 @@
-import { Menu, X, Globe } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -6,7 +6,6 @@ import { useLanguage } from '../contexts/LanguageContext';
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const [showLangMenu, setShowLangMenu] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
   const { language, setLanguage, t } = useLanguage();
@@ -78,30 +77,20 @@ export default function Navbar() {
           </div>
 
           <div className="hidden lg:flex items-center space-x-3">
-            <div className="relative">
+            <div className={`flex items-center gap-1 text-sm font-semibold ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white' : 'text-black'}`}>
               <button
-                onClick={() => setShowLangMenu(!showLangMenu)}
-                className={`px-3 py-2 rounded-full transition-colors text-sm font-semibold flex items-center gap-2 ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:bg-white/10' : 'text-black hover:bg-gray-100'}`}
+                onClick={() => setLanguage('de')}
+                className={`transition-colors ${language === 'de' ? 'opacity-100' : 'opacity-50 hover:opacity-75'}`}
               >
-                <Globe size={16} />
-                {language.toUpperCase()}
+                DE
               </button>
-              {showLangMenu && (
-                <div className="absolute right-0 mt-2 py-2 w-32 bg-white rounded-lg shadow-xl border border-gray-200 z-50">
-                  <button
-                    onClick={() => { setLanguage('de'); setShowLangMenu(false); }}
-                    className={`block w-full text-left px-4 py-2 text-sm hover:bg-gray-100 ${language === 'de' ? 'bg-gray-50 font-semibold' : ''}`}
-                  >
-                    Deutsch
-                  </button>
-                  <button
-                    onClick={() => { setLanguage('en'); setShowLangMenu(false); }}
-                    className={`block w-full text-left px-4 py-2 text-sm hover:bg-gray-100 ${language === 'en' ? 'bg-gray-50 font-semibold' : ''}`}
-                  >
-                    English
-                  </button>
-                </div>
-              )}
+              <span>|</span>
+              <button
+                onClick={() => setLanguage('en')}
+                className={`transition-colors ${language === 'en' ? 'opacity-100' : 'opacity-50 hover:opacity-75'}`}
+              >
+                EN
+              </button>
             </div>
             <button
               onClick={() => handleSectionClick('contact')}
