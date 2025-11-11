@@ -1,19 +1,36 @@
 import Navbar from './Navbar';
 import Footer from './Footer';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Datenschutz() {
+  const { language } = useLanguage();
+
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
 
       <div className="pt-24 pb-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8">Datenschutzerklärung</h1>
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8">
+            {language === 'de' ? 'Datenschutzerklärung' : 'Privacy Policy'}
+          </h1>
+
+          {language === 'en' && (
+            <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6 sm:mb-8">
+              <p className="text-sm text-gray-700">
+                This privacy policy is available in German only. For an English translation, please use your browser's translation feature or an online translation service.
+              </p>
+            </div>
+          )}
 
           <section className="mb-6 sm:mb-8">
-            <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">1. Datenschutz auf einen Blick</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">
+              {language === 'de' ? '1. Datenschutz auf einen Blick' : '1. Data Protection at a Glance'}
+            </h2>
 
-            <h3 className="text-lg sm:text-xl font-semibold mb-2">Allgemeine Hinweise</h3>
+            <h3 className="text-lg sm:text-xl font-semibold mb-2">
+              {language === 'de' ? 'Allgemeine Hinweise' : 'General Information'}
+            </h3>
             <p className="mb-4">
               Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten
               passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie
