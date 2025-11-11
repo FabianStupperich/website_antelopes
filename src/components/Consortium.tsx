@@ -1,8 +1,10 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Consortium() {
   const { elementRef: titleRef, isVisible: titleVisible } = useScrollAnimation(0.2);
   const { elementRef: cardsRef, isVisible: cardsVisible } = useScrollAnimation(0.1);
+  const { t } = useLanguage();
 
   const partners = [
     {
@@ -45,7 +47,7 @@ export default function Consortium() {
               : 'opacity-0 translate-y-8'
           }`}
         >
-          Konsortium
+          {t('consortium.title')}
         </h2>
 
         <div ref={cardsRef} className="space-y-4 sm:space-y-5">
@@ -82,7 +84,7 @@ export default function Consortium() {
 
                 <div className="md:col-span-2 flex items-start">
                   <span className="text-gray-400 text-sm font-medium">
-                    {partner.title}
+                    {t('consortium.profile')}
                   </span>
                 </div>
 

@@ -1,10 +1,12 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { useEffect } from 'react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export default function News() {
   const { elementRef: titleRef, isVisible: titleVisible } = useScrollAnimation(0.2);
   const { elementRef: cardsRef, isVisible: cardsVisible } = useScrollAnimation(0.1);
   const { elementRef: buttonRef, isVisible: buttonVisible } = useScrollAnimation(0.1);
+  const { t } = useLanguage();
 
   useEffect(() => {
     const script = document.createElement('script');
@@ -39,7 +41,7 @@ export default function News() {
               : 'opacity-0 translate-y-8'
           }`}
         >
-          Neuigkeiten
+          {t('news.title')}
         </h2>
 
         <div ref={cardsRef} className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
@@ -213,7 +215,7 @@ export default function News() {
         >
           <a href="/news">
             <button className="text-white px-6 py-2 rounded-full transition-all hover:shadow-lg hover:scale-105 text-sm font-semibold" style={{ backgroundColor: '#B34A22' }}>
-              Alle Neuigkeiten
+              {t('news.all')}
             </button>
           </a>
         </div>

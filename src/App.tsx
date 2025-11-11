@@ -5,8 +5,10 @@ import Project from './components/Project';
 import Consortium from './components/Consortium';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { useLanguage } from './contexts/LanguageContext';
 
 function App() {
+  const { t } = useLanguage();
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -38,14 +40,14 @@ function App() {
 
           <div className="text-gray-700" style={{ fontSize: '0.8vw', lineHeight: '1' }}>
             <div style={{ marginBottom: '1.5vh' }}>
-              <h3 className="font-semibold" style={{ marginBottom: '0.5vh' }}>Förderprogramm:</h3>
+              <h3 className="font-semibold" style={{ marginBottom: '0.5vh' }}>{t('funding.program')}</h3>
               <p>
-                8. Energieforschungsprogramms im Förderschwerpunkt Energiesystemanalyse, sektorübergreifende Systemmodellierung und -planung
+                {t('funding.program.text')}
               </p>
             </div>
 
             <div>
-              <h3 className="font-semibold" style={{ marginBottom: '0.5vh' }}>Förderkennzeichen:</h3>
+              <h3 className="font-semibold" style={{ marginBottom: '0.5vh' }}>{t('funding.code')}</h3>
               <p>03EI1101C</p>
             </div>
           </div>

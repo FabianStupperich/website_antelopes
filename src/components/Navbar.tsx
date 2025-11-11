@@ -1,12 +1,15 @@
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [showLangMenu, setShowLangMenu] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
+  const { language, setLanguage, t } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -58,29 +61,54 @@ export default function Navbar() {
               onClick={() => handleSectionClick('project')}
               className={`transition-colors text-sm ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-black hover:text-gray-700'}`}
             >
-              Projekt
+              {t('nav.project')}
             </button>
             <button
               onClick={() => navigate('/konsortium')}
               className={`transition-colors text-sm ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-black hover:text-gray-700'}`}
             >
-              Konsortium
+              {t('nav.consortium')}
             </button>
             <button
               onClick={() => navigate('/publikationen')}
               className={`transition-colors text-sm ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-black hover:text-gray-700'}`}
             >
-              Publikationen
+              {t('nav.publications')}
             </button>
           </div>
 
           <div className="hidden lg:flex items-center space-x-3">
+            <div className="relative">
+              <button
+                onClick={() => setShowLangMenu(!showLangMenu)}
+                className={`px-3 py-2 rounded-full transition-colors text-sm font-semibold flex items-center gap-2 ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:bg-white/10' : 'text-black hover:bg-gray-100'}`}
+              >
+                <Globe size={16} />
+                {language.toUpperCase()}
+              </button>
+              {showLangMenu && (
+                <div className="absolute right-0 mt-2 py-2 w-32 bg-white rounded-lg shadow-xl border border-gray-200 z-50">
+                  <button
+                    onClick={() => { setLanguage('de'); setShowLangMenu(false); }}
+                    className={`block w-full text-left px-4 py-2 text-sm hover:bg-gray-100 ${language === 'de' ? 'bg-gray-50 font-semibold' : ''}`}
+                  >
+                    Deutsch
+                  </button>
+                  <button
+                    onClick={() => { setLanguage('en'); setShowLangMenu(false); }}
+                    className={`block w-full text-left px-4 py-2 text-sm hover:bg-gray-100 ${language === 'en' ? 'bg-gray-50 font-semibold' : ''}`}
+                  >
+                    English
+                  </button>
+                </div>
+              )}
+            </div>
             <button
               onClick={() => handleSectionClick('contact')}
               className="px-5 py-2 rounded-full transition-colors text-sm font-semibold text-white"
               style={{ backgroundColor: '#B34A22' }}
             >
-              Kontakt
+              {t('nav.contact')}
             </button>
           </div>
 
@@ -98,32 +126,46 @@ export default function Navbar() {
               onClick={() => handleSectionClick('project')}
               className="block text-gray-300 hover:text-white transition-colors"
             >
-              Projekt
+              {t('nav.project')}
             </button>
             <button
               onClick={() => { navigate('/konsortium'); setIsMenuOpen(false); }}
               className="block text-gray-300 hover:text-white transition-colors"
             >
-              Konsortium
+              {t('nav.consortium')}
             </button>
             <button
               onClick={() => { navigate('/news'); setIsMenuOpen(false); }}
               className="block text-gray-300 hover:text-white transition-colors"
             >
-              News
+              {t('nav.news')}
             </button>
             <button
               onClick={() => { navigate('/publikationen'); setIsMenuOpen(false); }}
               className="block text-gray-300 hover:text-white transition-colors"
             >
-              Publikationen
+              {t('nav.publications')}
             </button>
+            <div className="flex gap-2 pt-2">
+              <button
+                onClick={() => { setLanguage('de'); setIsMenuOpen(false); }}
+                className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors ${language === 'de' ? 'bg-white text-black' : 'bg-gray-700 text-gray-300'}`}
+              >
+                DE
+              </button>
+              <button
+                onClick={() => { setLanguage('en'); setIsMenuOpen(false); }}
+                className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors ${language === 'en' ? 'bg-white text-black' : 'bg-gray-700 text-gray-300'}`}
+              >
+                EN
+              </button>
+            </div>
             <button
               onClick={() => handleSectionClick('contact')}
               className="block text-white px-6 py-2 rounded-full transition-colors text-center font-semibold"
               style={{ backgroundColor: '#B34A22' }}
             >
-              Kontakt
+              {t('nav.contact')}
             </button>
           </div>
         )}
