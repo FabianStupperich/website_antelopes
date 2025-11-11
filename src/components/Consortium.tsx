@@ -8,7 +8,7 @@ export default function Consortium() {
     {
       id: 1,
       logo: '/rwth_eerc_rgb.png',
-      website: 'https://www.eonerc.rwth-aachen.de/',
+      website: 'https://www.fcn.eonerc.rwth-aachen.de/cms/~dndh/E-ON-ERC-FCN/',
       university: '',
       subtitle: '',
       title: 'Kurzprofil',
