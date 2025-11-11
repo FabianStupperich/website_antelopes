@@ -104,7 +104,8 @@ export default function Publications() {
             ))}
           </div>
 
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">KIVi 01</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">KIVi 01</h2>
+          <p className="text-gray-600 mb-6">Publikationen aus dem Vorgängerprojekt</p>
 
           <div className="hidden lg:block bg-white rounded-lg border border-gray-200 overflow-hidden">
             <div className="grid grid-cols-12 gap-6 p-6 bg-gray-50 border-b border-gray-200 font-semibold text-gray-600 text-sm">
