@@ -28,7 +28,7 @@ export default function ConsortiumDetailed() {
     {
       id: 2,
       logo: '/Hochschule_Duesseldorf_logo.svg',
-      website: 'https://www.hs-duesseldorf.de/',
+      website: 'https://zies.hs-duesseldorf.de/',
       university: '',
       subtitle: '',
       sections: [
