@@ -1,8 +1,13 @@
 import Navbar from './Navbar';
 import Footer from './Footer';
 import { ExternalLink } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
+import { translations } from '../translations/translations';
 
 export default function Publications() {
+  const { language } = useLanguage();
+  const t = translations[language];
+
   const publicationsKiViAntelopes = [
     {
       id: 1,
@@ -31,7 +36,7 @@ export default function Publications() {
 
       <div className="flex-grow pt-24 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-gray-900 mb-8 sm:mb-12 lg:mb-16">Publikationen</h1>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-gray-900 mb-8 sm:mb-12 lg:mb-16">{t.publications.title}</h1>
 
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">KIVi Antelopes</h2>
 
