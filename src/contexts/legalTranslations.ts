@@ -13,7 +13,7 @@ export const impressumTranslations = {
     responsibleText: 'Inhaltlich Verantwortlich i.S.d. § 18 Abs. 2 MStV: Volatile GmbH'
   },
   en: {
-    title: 'Legal Notice according to § 5 Telemedia Act (TMG)',
+    title: 'Imprint according to § 5 Telemedia Act (TMG)',
     intro: 'Volatile GmbH is responsible for this website on behalf of the KIVi-Antelopes consortium.',
     addressTitle: 'Address of Consortium Leadership:',
     legalFormTitle: 'Legal Form:',

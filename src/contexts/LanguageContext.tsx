@@ -97,7 +97,7 @@ const translations = {
     'contact.email': 'Email',
     'footer.home': 'Home',
     'footer.project': 'The Project',
-    'footer.impressum': 'Legal Notice',
+    'footer.impressum': 'Imprint',
     'footer.datenschutz': 'Privacy Policy',
     'funding.program': 'Funding Program:',
     'funding.program.text': '8th Energy Research Program in the priority area Energy System Analysis, cross-sectoral system modeling and planning',
@@ -116,14 +116,22 @@ const translations = {
 };
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<Language>('de');
+  const [language, setLanguage] = useState<Language>(() => {
+    const saved = localStorage.getItem('language');
+    return (saved === 'en' || saved === 'de') ? saved : 'de';
+  });
+
+  const handleSetLanguage = (lang: Language) => {
+    setLanguage(lang);
+    localStorage.setItem('language', lang);
+  };
 
   const t = (key: string): string => {
     return translations[language][key] || key;
   };
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage, t }}>
+    <LanguageContext.Provider value={{ language, setLanguage: handleSetLanguage, t }}>
       {children}
     </LanguageContext.Provider>
   );
