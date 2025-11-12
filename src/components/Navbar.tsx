@@ -44,7 +44,7 @@ export default function Navbar() {
   const isKonsortium = location.pathname === '/konsortium';
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 bg-black ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'sm:bg-white' : 'sm:bg-transparent'}`}>
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 bg-black ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'sm:bg-black' : 'sm:bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3">
         <div className="flex items-center justify-between">
           <button onClick={() => navigate('/')} className="flex items-center space-x-2">
