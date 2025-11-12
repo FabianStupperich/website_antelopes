@@ -54,7 +54,7 @@ const translations = {
     'publications.title': 'Publikationen',
     'publications.kivi.antelopes': 'KIVi Antelopes',
     'publications.kivi.01': 'Publikationen aus vorheriger Forschung',
-    'publications.kivi.01.subtitle': 'Publikationen aus dem Vorgängerprojekt zum aktuellen Vorhaben mit dem Titel „KIVi - Künstliche Intelligenz zur Untersuchung der Versorgungssicherheit mit Elektrizität“, gefördert durch das Bundesministerium XYZ im Zeitraum XYZ mit Förderkennzeichen XYZ.',
+    'publications.kivi.01.subtitle': 'Publikationen aus dem Vorgängerprojekt zum aktuellen Vorhaben mit dem Titel „KIVi - Künstliche Intelligenz zur Untersuchung der Versorgungssicherheit mit Elektrizität“, gefördert durch das Bundesministerium für Wirtschaft und Klimaschutz (BMWK) im Zeitraum 01.06.2020 bis 30.11.2023 mit Förderkennzeichen 03EI1022A.',
     'publications.nr': 'Nr.',
     'publications.title.column': 'Titel',
     'publications.authors': 'Autoren',
