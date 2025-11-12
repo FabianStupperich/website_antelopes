@@ -145,7 +145,7 @@ const translations = {
     'publications.kivi01.3.title': 'The Potential of Deep Learning to Reduce Complexity in Energy System Modeling, International Journal of Energy Research.',
     'publications.kivi01.3.authors': 'Köhnen, C. S., Priesmann, J., Nolting, L., Kotzur, L., Robinius, M., Praktiknjo, A.',
     'publications.kivi01.3.date': '2021',
-    'publications.kivi01.4.title': 'Nolting, L., Praktiknjo, A. (2021). The complexity dilemma – Insights from security of electricity supply assessments. Energy, 122522.',
+    'publications.kivi01.4.title': 'The complexity dilemma – Insights from security of electricity supply assessments. Energy, 122522.',
     'publications.kivi01.4.authors': 'Nolting, L., Praktiknjo, A.',
     'publications.kivi01.4.date': '2021',
     'publications.kivi01.5.title': 'Behm, C., Nolting, L., Praktiknjo, A. (2020). How to Model European Electricity Load Profiles using Artificial Neural Networks, Applied Energy, 277, 115564.',
