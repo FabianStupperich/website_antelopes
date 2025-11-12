@@ -144,7 +144,7 @@ export default function Navbar() {
               </button>
               <button
                 onClick={() => { setLanguage('en'); setIsMenuOpen(false); }}
-                className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors ${language === 'en' ? 'bg-white text-white' : 'bg-gray-700 text-gray-300'}`}
+                className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors ${language === 'en' ? 'bg-white text-black' : 'bg-gray-700 text-gray-300'}`}
               >
                 EN
               </button>
