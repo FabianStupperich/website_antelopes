@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="absolute inset-0 hidden md:block">
         <div
           className="absolute inset-0 bg-[url('/hero.png')] bg-contain bg-center bg-no-repeat"
-          style={{ backgroundSize: '100%', filter: 'brightness(0.85)' }}
+          style={{ backgroundSize: '100%', filter: 'brightness(0.75)' }}
         ></div>
       </div>
 
