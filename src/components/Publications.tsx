@@ -63,7 +63,7 @@ export default function Publications() {
       title: t('publications.kivi01.6.title'),
       authors: t('publications.kivi01.6.authors'),
       date: t('publications.kivi01.6.date'),
-      link: '#'
+      link: 'https://doi.org/10.1016/j.apenergy.2020.115564'
     },
     {
       id: 7,
