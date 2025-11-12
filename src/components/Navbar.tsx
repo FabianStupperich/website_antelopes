@@ -138,7 +138,7 @@ export default function Navbar() {
             <div className="flex gap-2 pt-2">
               <button
                 onClick={() => { setLanguage('de'); setIsMenuOpen(false); }}
-                className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors ${language === 'de' ? 'bg-white text-black' : 'bg-gray-700 text-gray-300'}`}
+                className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors ${language === 'de' ? 'bg-white text-white' : 'bg-gray-700 text-gray-300'}`}
               >
                 DE
               </button>
