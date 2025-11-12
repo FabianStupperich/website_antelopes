@@ -27,7 +27,7 @@ export default function Project() {
     {
       titleKey: 'project.impact.title',
       contentKey: 'project.impact.content',
-      image: '/housing-4459403.jpg',
+      image: '/wind_offshore.png',
       imagePosition: 'left'
     }
   ];
