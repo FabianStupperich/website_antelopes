@@ -136,7 +136,7 @@ const translations = {
     'publications.antelopes.1.title': 'Artificial intelligence in the investigation of electricity supply security: Applied metamodeling for the robust optimization of the resilience and adequacy of highly complex, sector-coupled energy systems (KIVi Antelopes)',
     'publications.antelopes.1.authors': 'Chair for Energy Systems Economics (FCN-ESE) - RWTH Aachen University',
     'publications.antelopes.1.date': 'September 2025',
-    'publications.kivi01.1.title': 'Münch, J., Priesmann, J., Reich, M., Tillmanns, M., Praktiknjo, A., Adam, M. (2024). Uplifting the Complexity of Analysis for Probabilistic Security of Electricity Supply Assessments using Artificial Neural Networks, Energy and AI, 100401.',
+    'publications.kivi01.1.title': 'Uplifting the Complexity of Analysis for Probabilistic Security of Electricity Supply Assessments using Artificial Neural Networks, Energy and AI, 100401.',
     'publications.kivi01.1.authors': 'Münch, J., Priesmann, J., Reich, M., Tillmanns, M., Praktiknjo, A., Adam, M.',
     'publications.kivi01.1.date': '2024',
     'publications.kivi01.2.title': 'Priesmann, J., Münch, J., Tillmanns, M., Ridha, E., Spiegel, T., Reich, M., Adam, M., Nolting, L., Praktiknjo, A. (2024). Artificial intelligence and design of experiments for resource adequacy assessment in power systems, Energy Strategy Reviews, 53, 101368.',
