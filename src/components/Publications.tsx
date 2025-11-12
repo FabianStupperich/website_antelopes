@@ -55,7 +55,7 @@ export default function Publications() {
       title: t('publications.kivi01.5.title'),
       authors: t('publications.kivi01.5.authors'),
       date: t('publications.kivi01.5.date'),
-      link: '#'
+      link: 'https://doi.org/10.1016/j.energy.2021.122522'
     },
     {
       id: 6,
