@@ -53,7 +53,7 @@ const translations = {
     'funding.code': 'Förderkennzeichen:',
     'publications.title': 'Publikationen',
     'publications.kivi.antelopes': 'KIVi Antelopes',
-    'publications.kivi.01': 'Publikationen aus dem Vorgängerprojket',
+    'publications.kivi.01': 'Publikationen aus dem Vorgängerprojekt',
     'publications.kivi.01.subtitle': 'Publikationen aus dem Vorgängerprojekt',
     'publications.nr': 'Nr.',
     'publications.title.column': 'Titel',
