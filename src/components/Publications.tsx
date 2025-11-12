@@ -23,7 +23,7 @@ export default function Publications() {
       title: t('publications.kivi01.1.title'),
       authors: t('publications.kivi01.1.authors'),
       date: t('publications.kivi01.1.date'),
-      link: '#'
+      link: 'https://doi.org/10.2314/KXP:1917581998'
     },
     {
       id: 2,
