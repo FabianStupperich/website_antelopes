@@ -129,7 +129,7 @@ const translations = {
     'publications.title': 'Publications',
     'publications.kivi.antelopes': 'KIVi Antelopes',
     'publications.kivi.01': 'Publications from previous research',
-    'publications.kivi.01.subtitle': 'Publications from the predecessor project to the current project titled “KIVi - Artificial intelligence for assessing the security of electricity supply”, funded by the Federal Ministry XYZ in the period June 6, 2020 - November 30, 2023 with funding code XYZ.',
+    'publications.kivi.01.subtitle': 'Publications from the predecessor project to the current project titled “KIVi - Artificial intelligence for assessing the security of electricity supply”, funded by the Federal Ministry XYZ in the period June 6, 2020 - November 30, 2023 with funding code 03EI1022A.',
     'publications.nr': 'No.',
     'publications.title.column': 'Title',
     'publications.authors': 'Authors',
