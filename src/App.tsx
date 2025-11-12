@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 import { useLanguage } from './contexts/LanguageContext';
 
 function App() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -33,7 +33,7 @@ function App() {
             </div>
             <div className="flex items-center justify-center">
               <a target="_blank" rel="noopener noreferrer">
-                <img src="/BMWE_Logo_mit_Fooerderzusatz_de.png" alt="BMWK Logo" style={{ height: '12vh' }} className="w-auto object-contain hover:opacity-80 transition-opacity" />
+                <img src={language === 'en' ? '/BMWE_Logo_EN.png' : '/BMWE_Logo_mit_Fooerderzusatz_de.png'} alt="BMWK Logo" style={{ height: '12vh' }} className="w-auto object-contain hover:opacity-80 transition-opacity" />
               </a>
             </div>
           </div>
