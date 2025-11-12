@@ -141,7 +141,7 @@ const translations = {
     'publications.antelopes.1.date': 'September 2025',
     'publications.kivi01.1.title': 'KIVi - Artificial intelligence for assessing the security of electricity supply : final report',
     'publications.kivi01.1.authors': 'Münch, J.; Daun, P.; Tillmanns, M.; Dörr, D.; Priesmann, J.; Reich, M.; Nolting, L.; Prusas, B.; Adam, M.; Praktiknjo, A.',
-    'publications.kivi01.1.date': '2024',
+    'publications.kivi01.1.date': 'April 2024',
     'publications.kivi01.2.title': 'Uplifting the Complexity of Analysis for Probabilistic Security of Electricity Supply Assessments using Artificial Neural Networks, Energy and AI, 100401.',
     'publications.kivi01.2.authors': 'Münch, J., Priesmann, J., Reich, M., Tillmanns, M., Praktiknjo, A., Adam, M.',
     'publications.kivi01.2.date': 'September 2024',
