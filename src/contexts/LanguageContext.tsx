@@ -142,7 +142,7 @@ const translations = {
     'publications.kivi01.2.title': 'Artificial intelligence and design of experiments for resource adequacy assessment in power systems, Energy Strategy Reviews, 53, 101368.',
     'publications.kivi01.2.authors': 'Priesmann, J., Münch, J., Tillmanns, M., Ridha, E., Spiegel, T., Reich, M., Adam, M., Nolting, L., Praktiknjo, A.',
     'publications.kivi01.2.date': '2024',
-    'publications.kivi01.3.title': 'Köhnen, C. S., Priesmann, J., Nolting, L., Kotzur, L., Robinius, M., Praktiknjo, A. (2021). The Potential of Deep Learning to Reduce Complexity in Energy System Modeling, International Journal of Energy Research.',
+    'publications.kivi01.3.title': 'The Potential of Deep Learning to Reduce Complexity in Energy System Modeling, International Journal of Energy Research.',
     'publications.kivi01.3.authors': 'Köhnen, C. S., Priesmann, J., Nolting, L., Kotzur, L., Robinius, M., Praktiknjo, A.',
     'publications.kivi01.3.date': '2021',
     'publications.kivi01.4.title': 'Nolting, L., Praktiknjo, A. (2021). The complexity dilemma – Insights from security of electricity supply assessments. Energy, 122522.',
