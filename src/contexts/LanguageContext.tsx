@@ -148,7 +148,7 @@ const translations = {
     'publications.kivi01.4.title': 'The complexity dilemma – Insights from security of electricity supply assessments. Energy, 122522.',
     'publications.kivi01.4.authors': 'Nolting, L., Praktiknjo, A.',
     'publications.kivi01.4.date': '2021',
-    'publications.kivi01.5.title': 'Behm, C., Nolting, L., Praktiknjo, A. (2020). How to Model European Electricity Load Profiles using Artificial Neural Networks, Applied Energy, 277, 115564.',
+    'publications.kivi01.5.title': 'How to Model European Electricity Load Profiles using Artificial Neural Networks, Applied Energy, 277, 115564.',
     'publications.kivi01.5.authors': 'Behm, C., Nolting, L., Praktiknjo, A.',
     'publications.kivi01.5.date': '2020',
     'publications.kivi01.6.title': 'Nolting, L., Spiegel, T., Reich, M., Adam, M., Praktiknjo, A. (2020). Can Energy System Modeling Benefit from Artificial Neural Networks? Application of Two-stage Metamodels to Reduce Computation of Security of Supply Assessments, Computers & Industrial Engineering, 142.',
