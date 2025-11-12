@@ -159,7 +159,7 @@ const translations = {
     'publications.kivi01.6.date': 'November 2020',
     'publications.kivi01.7.title': 'Can Energy System Modeling Benefit from Artificial Neural Networks? Application of Two-stage Metamodels to Reduce Computation of Security of Supply Assessments, Computers & Industrial Engineering, 142.',
     'publications.kivi01.7.authors': 'Nolting, L., Spiegel, T., Reich, M., Adam, M., Praktiknjo, A.',
-    'publications.kivi01.7.date': '2020'
+    'publications.kivi01.7.date': 'April 2020'
   }
 };
 
