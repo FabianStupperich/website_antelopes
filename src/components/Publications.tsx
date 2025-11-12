@@ -47,7 +47,7 @@ export default function Publications() {
       title: t('publications.kivi01.4.title'),
       authors: t('publications.kivi01.4.authors'),
       date: t('publications.kivi01.4.date'),
-      link: '#'
+      link: 'https://doi.org/10.1002/er.7448'
     },
     {
       id: 5,
