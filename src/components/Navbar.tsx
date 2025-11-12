@@ -77,7 +77,7 @@ export default function Navbar() {
           </div>
 
           <div className="hidden lg:flex items-center space-x-3">
-            <div className={`flex items-center gap-1 text-sm font-semibold ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white' : 'text-black'}`}>
+            <div className={`flex items-center gap-1 text-sm font-semibold ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white' : 'text-white'}`}>
               <button
                 onClick={() => setLanguage('de')}
                 className={`transition-colors ${language === 'de' ? 'opacity-100' : 'opacity-50 hover:opacity-75'}`}
