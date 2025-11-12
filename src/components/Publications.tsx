@@ -31,7 +31,7 @@ export default function Publications() {
       title: t('publications.kivi01.2.title'),
       authors: t('publications.kivi01.2.authors'),
       date: t('publications.kivi01.2.date'),
-      link: '#'
+      link: 'https://doi.org/10.1016/j.egyai.2024.100401'
     },
     {
       id: 3,
