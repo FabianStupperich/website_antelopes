@@ -128,7 +128,7 @@ const translations = {
     'funding.code': 'Funding Code:',
     'publications.title': 'Publications',
     'publications.kivi.antelopes': 'KIVi Antelopes',
-    'publications.kivi.01': 'KIVi - Artificial intelligence for assessing the security of electricity supply',
+    'publications.kivi.01': 'Publications from previous research',
     'publications.kivi.01.subtitle': 'Publications from the predecessor project',
     'publications.nr': 'No.',
     'publications.title.column': 'Title',
