@@ -71,7 +71,7 @@ export default function Publications() {
       title: t('publications.kivi01.7.title'),
       authors: t('publications.kivi01.7.authors'),
       date: t('publications.kivi01.7.date'),
-      link: '#'
+      link: 'https://doi.org/10.1016/j.cie.2020.106334'
     }
   ];
 
