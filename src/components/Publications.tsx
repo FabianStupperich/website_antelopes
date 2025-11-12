@@ -64,6 +64,14 @@ export default function Publications() {
       authors: t('publications.kivi01.6.authors'),
       date: t('publications.kivi01.6.date'),
       link: '#'
+    },
+    {
+      id: 7,
+      number: 7,
+      title: t('publications.kivi01.7.title'),
+      authors: t('publications.kivi01.7.authors'),
+      date: t('publications.kivi01.7.date'),
+      link: '#'
     }
   ];
 
