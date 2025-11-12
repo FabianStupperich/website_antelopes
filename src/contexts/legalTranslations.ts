@@ -23,7 +23,7 @@ export const impressumTranslations = {
     authorityText2: '40221 Düsseldorf',
     vatTitle: 'VAT Identification Number:',
     vatText: 'According to § 27 a Value Added Tax Act: DE 121689807',
-    responsibleText: 'Content Responsible according to § 18 Para. 2 MStV: Volatile GmbH'
+    responsibleText: 'Responsible for content according to § 18 Para. 2 MStV: Volatile GmbH'
   }
 };
 
