@@ -58,19 +58,19 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center space-x-4 xl:space-x-6 absolute left-1/2 transform -translate-x-1/2">
             <button
               onClick={() => handleSectionClick('project')}
-              className={`transition-colors text-sm ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-black hover:text-gray-700'}`}
+              className={`transition-colors text-sm ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-white hover:text-gray-700'}`}
             >
               {t('nav.project')}
             </button>
             <button
               onClick={() => navigate('/konsortium')}
-              className={`transition-colors text-sm ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-black hover:text-gray-700'}`}
+              className={`transition-colors text-sm ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-white hover:text-gray-700'}`}
             >
               {t('nav.consortium')}
             </button>
             <button
               onClick={() => navigate('/publikationen')}
-              className={`transition-colors text-sm ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-black hover:text-gray-700'}`}
+              className={`transition-colors text-sm ${isImpressum || isDatenschutz || isNewsPage || isPublikationen || isKonsortium || isScrolled ? 'text-white hover:text-gray-300' : 'text-white hover:text-gray-700'}`}
             >
               {t('nav.publications')}
             </button>
