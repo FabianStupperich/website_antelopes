@@ -1,11 +1,11 @@
 export default function Hero() {
   return (
-    <section id="home" className="relative flex items-center justify-center overflow-hidden max-h-[65vh]">
+    <section id="home" className="relative flex items-center justify-center overflow-hidden">
       <div className="relative w-full hidden md:block">
         <img
           src="/hero.png"
           alt="Hero background"
-          className="w-full h-auto max-h-[65vh] object-contain"
+          className="w-full h-auto"
           style={{ filter: 'brightness(0.75)' }}
         />
         <div className="absolute inset-0 flex items-end justify-start">
