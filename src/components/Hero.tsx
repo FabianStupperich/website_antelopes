@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section id="home" className="relative h-[85vh] flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 hidden lg:block">
+      <div className="absolute inset-0 hidden md:block">
         <div
           className="absolute inset-0 bg-[url('/hero.png')] bg-contain bg-center bg-no-repeat"
           style={{ backgroundSize: '100%', filter: 'brightness(0.75)' }}
