@@ -17,7 +17,7 @@ export default function Hero() {
           }}
         >
           <img
-            src="/KIVi_Antelopes_Logo.svg"
+            src="/Antelopes_Logo_neu.svg"
             alt="KIVI Antelopes Logo"
             style={{ height: '14vh' }}
             className="max-w-full"
