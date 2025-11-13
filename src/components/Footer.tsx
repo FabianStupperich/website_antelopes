@@ -43,11 +43,6 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/news" className="text-white hover:text-white transition-colors">
-                  {t('nav.news')}
-                </a>
-              </li>
-              <li>
                 <button onClick={() => handleSectionClick('project')} className="text-white hover:text-white transition-colors text-left">
                   {t('footer.project')}
                 </button>
