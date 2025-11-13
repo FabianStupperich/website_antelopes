@@ -38,7 +38,7 @@ function App() {
             </div>
           </div>
 
-          <div className="text-gray-700" style={{ fontSize: '0.7vw', lineHeight: '1' }}>
+          <div className="text-gray-700" style={{ fontSize: '0.75vw', lineHeight: '1' }}>
             <div style={{ marginBottom: '1.5vh' }}>
               <h3 className="font-semibold" style={{ marginBottom: '0.5vh' }}>{t('funding.program')}</h3>
               <p>
