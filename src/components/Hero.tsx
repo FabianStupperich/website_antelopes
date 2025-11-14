@@ -17,10 +17,16 @@ export default function Hero() {
           }}
         >
           <img
+            src="/KIVi_Antelopes_Logo.svg"
+            alt="KIVI Antelopes Logo"
+            style={{ height: '14vh' }}
+            className="max-w-full md:hidden"
+          />
+          <img
             src="/Antelopes_Logo_neu.svg"
             alt="KIVI Antelopes Logo"
             style={{ height: '14vh' }}
-            className="max-w-full"
+            className="max-w-full hidden md:block"
           />
         </div>
       </div>
