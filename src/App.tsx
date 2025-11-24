@@ -53,7 +53,8 @@ function App() {
           </div>
         </div>
       </div>
-      
+
+      <News />
       <Project />
       <Consortium />
       <Contact />
