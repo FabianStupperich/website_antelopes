@@ -25,8 +25,8 @@ export default function News() {
     {
       id: 1,
       isLinkedIn: true,
-      linkedInEmbedUrl: 'https://www.linkedin.com/embed/feed/update/urn:li:activity:7371113195438047232',
-      linkedInPostUrl: 'https://www.linkedin.com/feed/update/urn:li:activity:7371113195438047232'
+      linkedInEmbedUrl: 'https://www.linkedin.com/embed/feed/update/urn:li:activity:7398650081467400192',
+      linkedInPostUrl: 'https://www.linkedin.com/posts/ese-rwth_projektstart-ki-versorgungssicherheit-activity-7398650081467400192-zyn4'
     },
   ];
 
