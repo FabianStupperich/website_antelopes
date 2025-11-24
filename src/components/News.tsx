@@ -31,7 +31,7 @@ export default function News() {
   ];
 
   return (
-    <section id="news" className="pt-24 sm:pt-32 pb-16 sm:pb-24 bg-white">
+    <section id="news" className="pt-24 sm:pt-32 pb-16 sm:pb-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <h2
           ref={titleRef}
